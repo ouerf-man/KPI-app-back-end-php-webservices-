@@ -14,7 +14,7 @@
 			<div class="row-fluid sortable">
 				<div class="box span12">
 					<div class="box-header" data-original-title>
-						<h2><i class="halflings-icon white user"></i><span class="break"></span>Members</h2>
+						<h2><i class="halflings-icon white user"></i><span class="break"></span>Deputies</h2>
 						<div class="box-icon">
 							<a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
 							<a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
@@ -26,8 +26,8 @@
 						  <thead>
 							  <tr>
 								  <th>ID</th>
+                                  <th>Name FR</th>
 								  <th>Name Ar</th>
-								  <th>Name FR</th>
 								  <th>Actions</th>
 							  </tr>
 						  </thead>
@@ -45,10 +45,10 @@
 								<td><?php echo $row['elu_nom_fr']; ?></td>
 								<td><?php echo $row['elu_nom_ar']; ?></td>
 								<td class="center">
-									<a class="btn btn-info" href="deputie.php?dID=<?php echo $row['elu_id']; ?>">
+									<a class="btn btn-info" href="deputie.php?dID=<?php echo"'". $row['elu_id']."'"; ?>">
 										Read more
 									</a>
-									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data_dep.php?delID=<?php echo $row['elu_id'];?>">
+									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data_dep.php?delID=<?php echo "\"".$row['elu_id']."\"";?>">
 										<i class="halflings-icon white trash"></i>
 									</a>
 								</td>

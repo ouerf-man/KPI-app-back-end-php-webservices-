@@ -9,15 +9,15 @@
   <Author>Raed</Author>
   <LastAuthor>Raed</LastAuthor>
   <Created>2019-09-05T23:17:17Z</Created>
-  <LastSaved>2019-09-05T23:17:58Z</LastSaved>
+  <LastSaved>2019-09-10T20:56:39Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>11760</WindowHeight>
-  <WindowWidth>20730</WindowWidth>
+  <WindowHeight>4860</WindowHeight>
+  <WindowWidth>15345</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -32,1219 +32,1294 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s16">
+  <Style ss:ID="s62">
    <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="242" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="242" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">elu_id</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">elu_nom_fr</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">elu_nom_ar</Data></Cell>
+   <Column ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="519.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">elu_id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">elu_nom_fr</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">elu_nom_ar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">gov</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">bio</Data></Cell>
+    <Cell ss:StyleID="s62"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Karim_Helali</Data></Cell>
     <Cell><Data ss:Type="String">Karim Helali</Data></Cell>
     <Cell><Data ss:Type="String">كريم الهلالي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Vérité et Dignité&#10;03/2016→Maintenant&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Commission de la législation générale&#10;10/2018→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;04/2015→11/2017&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018&#10;Parcours scolaire&#10;Baccalauréat en mathématiques et sciences au lycée kheireddine Pacha de l'Ariana (1991)&#10;Maitrise en hautes études commerciales - spécialité commerce extérieur de l'Ecole Supérieure de Commerce de Tunis (1995)&#10;Diplôme de cycle supérieur - section hauts cadres de contrôle d'inspection et de juridiction de l'Ecole Nationale de l'Administration (1998)&#10;Parcours professionnel&#10;Inspecteur au sein du corps de Contrôle Général des Services Publics au premier ministère entre 1998 et 2001&#10;Magistrat au conseil de l'Etat auprès de la cour des comptes depuis 2001&#10;Directeur à la compagnie aérienne tunisienne entre 2003 et 2005&#10;Parcours politique&#10;Président de la délégation spéciale de la municipalité de l'Ariana depuis Avril 2011&#10;Autres activités&#10;Joueur de handball au sein de l'Association sportive de l'Ariana entre 1981 et 1994&#10;Membre du bureau fédéral de la fédération tunisienne de handball entre 2005 et 2012&#10;Juge au Tribunal Sportif de la Fédération Internationale de Handball depuis 2009&#10;Président de la fédération tunisienne de handball entre 2012 et 2014&#10;Président de la Zone 1 (Afrique du Nord) à la Confédération Africaine de Handball depuis 2012</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ghannem</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ghannem</Data></Cell>
     <Cell><Data ss:Type="String">محمد غنام</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Yassine_Brahim</Data></Cell>
     <Cell><Data ss:Type="String">Yassine Brahim</Data></Cell>
     <Cell><Data ss:Type="String">ياسين ابراهيم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ali_Bennour</Data></Cell>
     <Cell><Data ss:Type="String">Ali Bennour</Data></Cell>
     <Cell><Data ss:Type="String">علي بنور</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noomane_Fehri</Data></Cell>
     <Cell><Data ss:Type="String">Noomane Fehri</Data></Cell>
     <Cell><Data ss:Type="String">نعمان الفهري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Anouar_Adhar</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Anouar Adhar</Data></Cell>
     <Cell><Data ss:Type="String">محمد أنور العذار</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hafedh_Zouari</Data></Cell>
     <Cell><Data ss:Type="String">Hafedh Zouari</Data></Cell>
     <Cell><Data ss:Type="String">حافظ الزواري</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;10/2018→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission des finances, de la planification et du développement&#10;02/2015→09/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→09/2016&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2016→04/2017&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;04/2017→10/2018&#10;Parcours politique&#10;Conseiller auprès de la municipalité de Kalâa Kebira (1995 - 2000)&#10;Autres activités&#10;Membre de la Jeune Chambre Economique de Kalâa Kebira&#10;Président de l'Hirondelle sportive de Kalâa Kebira&#10;Président de l'association caritative &quot;dignité&quot;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Riadh_Mouakhar</Data></Cell>
     <Cell><Data ss:Type="String">Riadh Mouakhar</Data></Cell>
     <Cell><Data ss:Type="String">رياض المؤخر</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Iyad_Dahmani</Data></Cell>
     <Cell><Data ss:Type="String">Iyad Dahmani</Data></Cell>
     <Cell><Data ss:Type="String">إياد الدهماني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mehdi_Ben_Gharbia</Data></Cell>
     <Cell><Data ss:Type="String">Mehdi Ben Gharbia</Data></Cell>
     <Cell><Data ss:Type="String">المهدي بن غربية</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sabri_Dekhil</Data></Cell>
     <Cell><Data ss:Type="String">Sabri Dekhil</Data></Cell>
     <Cell><Data ss:Type="String">صبري الدخيل</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mabrouk_Hrizi</Data></Cell>
     <Cell><Data ss:Type="String">Mabrouk Hrizi</Data></Cell>
     <Cell><Data ss:Type="String">مبروك الحريزي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ibrahim_Ben_Said</Data></Cell>
     <Cell><Data ss:Type="String">Ibrahim Ben Said</Data></Cell>
     <Cell><Data ss:Type="String">ابراهيم بن سعيد</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Imed_Daimi</Data></Cell>
     <Cell><Data ss:Type="String">Imed Daimi</Data></Cell>
     <Cell><Data ss:Type="String">عماد الدائمي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Rim_Thairi</Data></Cell>
     <Cell><Data ss:Type="String">Rim Thairi</Data></Cell>
     <Cell><Data ss:Type="String">ريم الثايري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_El_Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed El Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">محمد حامدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ghazi_Chaouachi</Data></Cell>
     <Cell><Data ss:Type="String">Ghazi Chaouachi</Data></Cell>
     <Cell><Data ss:Type="String">غازي الشواشي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission de la législation générale&#10;03/2015→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Bureau de l'assemblée&#10;Assesseur chargé des affaires des élus du 17 octobre 2016 à aujourd'hui&#10;Parcours scolaire&#10;Baccalauréat en Lettres au lycée El Mansoura, Kairouan (1982)&#10;Licence en droit à la Faculté de droit et des sciences économiques de Tunis (1987)&#10;Certificat d'Aptitude à la Profession d'Avocat - CAPA - à la Faculté de droit de Tunis (1988)&#10;Parcours professionnel&#10;Cadre bancaire à Amen Bank (1988- 1994)&#10;Avocat depuis 1994&#10;Parcours politique&#10;Co-fondateur du parti Courant Démocratique&#10;Membre du bureau exécutif du Courant Démocratique&#10;Vice-secrétaire général du Courant Démocratique&#10;Autres activités&#10;Fondateur d'une association et membre dans plusieurs autres associations&#10;Ancien membre de la Ligue Tunisienne des Droits de l'Homme</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noomane_El_Euch</Data></Cell>
     <Cell><Data ss:Type="String">Noomane El Euch</Data></Cell>
     <Cell><Data ss:Type="String">نعمان العش</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Samia_Abbou</Data></Cell>
     <Cell><Data ss:Type="String">Samia Abbou</Data></Cell>
     <Cell><Data ss:Type="String">سامية عبو</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Vérité et Dignité&#10;03/2016→Maintenant&#10;Commission de la législation générale&#10;01/2018→Maintenant&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→09/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;05/2015→11/2017&#10;Commission des finances, de la planification et du développement&#10;10/2016→01/2018&#10;Commission électorale&#10;11/2018→04/2019&#10;Parcours scolaire&#10;Diplôme d’études approfondies de la Faculté de Droit (2010)&#10;Parcours politique&#10;A rejoint le parti du Congrès Pour la République (2006 - 2013)&#10;Autres activités&#10;Membre fondateur du Conseil National pour les Libertés en Tunisie (1998)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Touhami_Abdouli</Data></Cell>
     <Cell><Data ss:Type="String">Touhami Abdouli</Data></Cell>
     <Cell><Data ss:Type="String">تهامي عبدولي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zied_Lakhdhar</Data></Cell>
     <Cell><Data ss:Type="String">Zied Lakhdhar</Data></Cell>
     <Cell><Data ss:Type="String">زياد الأخضر</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ammar_Amroussia</Data></Cell>
     <Cell><Data ss:Type="String">Ammar Amroussia</Data></Cell>
     <Cell><Data ss:Type="String">عمار عمروسيه</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→Maintenant&#10;Commission du développement régional&#10;11/2018→Maintenant&#10;Commission du développement régional&#10;05/2015→09/2016&#10;Commission du développement régional&#10;10/2016→12/2017&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;02/2015→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mongi_Rahoui</Data></Cell>
     <Cell><Data ss:Type="String">Mongi Rahoui</Data></Cell>
     <Cell><Data ss:Type="String">منجي الرحوي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;03/2016→Maintenant&#10;Commission des finances, de la planification et du développement&#10;09/2016→Maintenant&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→Maintenant&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→Maintenant&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission de la sécurité et de la défense&#10;04/2015→03/2016&#10;Commission des finances, de la planification et du développement&#10;02/2015→09/2016&#10;Parcours scolaire&#10;Maitrise en comptabilité de l’Institut des Hautes Etudes Commerciales de Carthage&#10;Master en ingénierie financière de l'Institut Supérieur de Commerce de Tunis&#10;Diplôme d'études de comptabilité et gestion de l'Université de Marseille&#10;Diplôme d'études supérieures de l'Institut des Techniques Bancaires de Paris&#10;Diplôme supérieur de comptabilité et gestion à Marseille&#10;Diplôme d'études supérieures en techniques comptables de l'Institut National des Techniques Economiques et Comptables de Paris&#10;Parcours professionnel&#10;A travaillé à la Banque Nationale Agricole&#10;Parcours politique&#10;A rejoint le Mouvement des Démocrates Socialistes et a été ensuite emprisonné pour incitation au désordre public (1982)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tarek_Barrak</Data></Cell>
     <Cell><Data ss:Type="String">Tarek Barrak</Data></Cell>
     <Cell><Data ss:Type="String">طارق براق</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Aymen_Aloui</Data></Cell>
     <Cell><Data ss:Type="String">Aymen Aloui</Data></Cell>
     <Cell><Data ss:Type="String">أيمن علوي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Vérité et Dignité&#10;03/2016→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;10/2018→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Commission des droits et libertés et des relations extérieures&#10;10/2016→10/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→11/2017&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→10/2018&#10;Commission des affaires des tunisiens à l’étranger&#10;01/2018→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nizar_Amami</Data></Cell>
     <Cell><Data ss:Type="String">Nizar Amami</Data></Cell>
     <Cell><Data ss:Type="String">نزار عمامي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Bureau de l'assemblée&#10;Assesseur chargé de la surveillance budgétaire du 16 février 2015 à aujourd'hui</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mourad_Hamaidi</Data></Cell>
     <Cell><Data ss:Type="String">Mourad Hamaidi</Data></Cell>
     <Cell><Data ss:Type="String">مراد حمايدي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;12/2017→Maintenant&#10;Commission de la législation générale&#10;10/2018→Maintenant&#10;Commission de la législation générale&#10;03/2015→09/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→09/2016&#10;Commission de la législation générale&#10;10/2016→03/2017&#10;Commission de la législation générale&#10;04/2017→10/2017&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;10/2016→12/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→10/2018&#10;Parcours scolaire&#10;Baccalauréat littéraire au lycée secondaire de Tajerouine (1991)&#10;Maîtrise en Droit - Section judiciaire - de la Faculté de Droit et des Sciences Politiques de Tunis (1998)&#10;Diplôme de formation de base des cadres moyens spécialité gestion des ressources humaines de l'Ecole Nationale d'Administration (1996)&#10;Certificat d'Aptitude à la Profession d'Avocat de la Faculté de Droit et des Sciences Politiques de Tunis (2001)&#10;Parcours professionnel&#10;Administrateur à la direction des affaires administratives et financières au ministère de l'industrie (1996 - 2004)&#10;Chef de service de la formation et de la promotion à la direction des affaires administratives et financières au ministère de l'industrie (2000 - 2004)&#10;Avocat&#10;Parcours politique&#10;Coordinateur de la ligue régionale du Mouvement des Patriotes Démocrates au Kef (2011 - 2012)&#10;Membre du bureau de la ligue régionale du Parti Unifié des Patriotes Démocrates au Kef (2012 - 2015)&#10;Membre de la commission centrale du Parti Unifié des Patriotes Démocrates à partir de 2015&#10;Autres activités&#10;Président de l'Association Tunisienne d'Aide aux Sourds - Section de Tajerouine (2011 - 2014)&#10;Membre du comité directeur de l'Association Tunisienne d'Aide aux Sourds - Section Tajerouine - depuis 2014</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Haykel_Belgacem</Data></Cell>
     <Cell><Data ss:Type="String">Haykel Belgacem</Data></Cell>
     <Cell><Data ss:Type="String">هيكل بلقاسم</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Supérieure Indépendante des Elections&#10;03/2016→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2018→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;02/2015→09/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2016→10/2018&#10;Commission électorale&#10;05/2015→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdelmoumen_Belanes</Data></Cell>
     <Cell><Data ss:Type="String">Abdelmoumen Belanes</Data></Cell>
     <Cell><Data ss:Type="String">عبد المؤمن بلعانس</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Fathi_Chamkhi</Data></Cell>
     <Cell><Data ss:Type="String">Fathi Chamkhi</Data></Cell>
     <Cell><Data ss:Type="String">فتحي شامخي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des finances, de la planification et du développement&#10;02/2015→Maintenant</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Chafik_Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">Chafik Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">شفيق العيادي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Souad_Bayouli</Data></Cell>
     <Cell><Data ss:Type="String">Souad Bayouli</Data></Cell>
     <Cell><Data ss:Type="String">سعاد البيولي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mbarka_Aouania</Data></Cell>
     <Cell><Data ss:Type="String">Mbarka Aouania&#160;</Data></Cell>
     <Cell><Data ss:Type="String">مباركة عوائنية</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la santé et des affaires sociales&#10;10/2016→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→09/2016&#10;Commission de la santé et des affaires sociales&#10;05/2015→09/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;10/2016→11/2018&#10;Parcours scolaire&#10;Baccalauréat littéraire (1988)&#10;Des études supérieures en Droit à la faculté de Droit et des Sciences Politiques de Tunis</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Jilani_Hammami</Data></Cell>
     <Cell><Data ss:Type="String">Jilani Hammami</Data></Cell>
     <Cell><Data ss:Type="String">الجيلاني الهمامي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2016→Maintenant&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;11/2017→Maintenant&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;03/2015→09/2016&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;04/2015→09/2016&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;10/2016→11/2017</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ahmed_Seddik</Data></Cell>
     <Cell><Data ss:Type="String">Ahmed Seddik</Data></Cell>
     <Cell><Data ss:Type="String">أحمد الصديق</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la sécurité et de la défense&#10;03/2016→Maintenant&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;10/2018→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→02/2016&#10;Commission de la législation générale&#10;03/2015→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Faycel_Tebini</Data></Cell>
     <Cell><Data ss:Type="String">Faycel Tebini</Data></Cell>
     <Cell><Data ss:Type="String">فيصل تبيني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Riadh_Jaidane</Data></Cell>
     <Cell><Data ss:Type="String">Riadh Jaidane</Data></Cell>
     <Cell><Data ss:Type="String">رياض جعيدان</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→Maintenant&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;04/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→02/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→04/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abderrazak_Chraiet</Data></Cell>
     <Cell><Data ss:Type="String">Abderrazak Chraiet</Data></Cell>
     <Cell><Data ss:Type="String">عبد الرزاق شريط</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Adnane_Hajji</Data></Cell>
     <Cell><Data ss:Type="String">Adnane Hajji</Data></Cell>
     <Cell><Data ss:Type="String">عدنان حاجي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;05/2015→09/2016&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→10/2017&#10;Autres activités&#10;Syndicaliste et un des leaders du mouvement de contestation du bassin minier en 2008</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hmed_Khaskhoussi</Data></Cell>
     <Cell><Data ss:Type="String">Hmed Khaskhoussi</Data></Cell>
     <Cell><Data ss:Type="String">حمد الخصخوصي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ridha_Dellai</Data></Cell>
     <Cell><Data ss:Type="String">Ridha Dellai</Data></Cell>
     <Cell><Data ss:Type="String">رضا دلاعي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Supérieure Indépendante des Elections&#10;03/2016→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2018→Maintenant&#10;Commission de la santé et des affaires sociales&#10;05/2015→02/2016&#10;Commission du développement régional&#10;05/2015→09/2016&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2016→11/2017&#10;Commission du développement régional&#10;10/2016→12/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zouhair_Maghzaoui</Data></Cell>
     <Cell><Data ss:Type="String">Zouhair Maghzaoui</Data></Cell>
     <Cell><Data ss:Type="String">زهير المغزاوي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission des finances, de la planification et du développement&#10;02/2015→02/2016&#10;Commission électorale&#10;03/2016→09/2016&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2016→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Salem_Labiadh</Data></Cell>
     <Cell><Data ss:Type="String">Salem Labiadh</Data></Cell>
     <Cell><Data ss:Type="String">سالم لبيض</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→Maintenant</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ramzi_Ben_Fraj</Data></Cell>
     <Cell><Data ss:Type="String">Ramzi Ben Fraj</Data></Cell>
     <Cell><Data ss:Type="String">رمزي بن فرج</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sahbi_Atig</Data></Cell>
     <Cell><Data ss:Type="String">Sahbi Atig</Data></Cell>
     <Cell><Data ss:Type="String">الصحبي عتيق</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→09/2016&#10;Bureau de l'assemblée&#10;Assesseur chargé des affaires législatives du 17 octobre 2016 à 19 octobre 2018&#10;Parcours scolaire&#10;Baccalauréat scientifique et technologique&#10;A rejoint la Faculté des Sciences mathématiques, physiques et naturelles de Tunis&#10;Licence de théologie à l’université de la Zeitouna (1985)&#10;Diplôme d'études approfondies porté sur l’œuvre de Mohamed Tahar Ben Achour&#10;Parcours politique&#10;A rejoint le Mouvement de la Tendance Islamique puis le mouvement Ennahdha (1975)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Jamila_Debbech</Data></Cell>
     <Cell><Data ss:Type="String">Jamila Debbech</Data></Cell>
     <Cell><Data ss:Type="String">جميلة دبش</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sami_Fetnassi</Data></Cell>
     <Cell><Data ss:Type="String">Sami Fetnassi</Data></Cell>
     <Cell><Data ss:Type="String">سامي الفطناسي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noureddine_Bhiri</Data></Cell>
     <Cell><Data ss:Type="String">Noureddine Bhiri</Data></Cell>
     <Cell><Data ss:Type="String">نور الدين البحيري</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la législation générale&#10;03/2015→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→09/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;10/2016→11/2017&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Licence en droit privé de la Faculté de Droit et des Sciences Politiques et Economiques de Tunis&#10;Parcours professionnel&#10;Exerce sa fonction d'avocat à la cour de cassation&#10;Parcours politique&#10;A supervisé la direction de la tendance islamique à l'université&#10;Membre du bureau politique, du bureau exécutif ainsi que du Conseil de la Choura du mouvement Ennahdha (1981)&#10;Emprisonné entre Février et Septembre 1987&#10;Actuellement membre du bureau exécutif et responsable de la section politique du mouvement Ennahdha&#10;Elu à l'Assemblée Nationale Constituante sur la liste du mouvement Ennahdha de la circonscription de Ben Arous et démissionne suite à sa nomination au poste de ministre de la Justice (Octobre 2011 - Mai 2012)&#10;Autres activités&#10;Membre du bureau exécutif du Centre de Tunis pour l'indépendance de la justice &#10;Membre de la coordination nationale pour le soutien à la révolution syrienne&#10;Coordinateur du comité des avocats devant le tribunal militaire en 1992 &#10;Membre fondateur de l'organisation nationale de la lutte contre la normalisation avec l'État sioniste&#10;Membre fondateur du Comité national de soutien de l'Irak</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hela_Hammi</Data></Cell>
     <Cell><Data ss:Type="String">Hela Hammi</Data></Cell>
     <Cell><Data ss:Type="String">هالة الحامي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Mahjoub</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Mahjoub</Data></Cell>
     <Cell><Data ss:Type="String">محمد المحجوب</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Bechir_Ellazzem</Data></Cell>
     <Cell><Data ss:Type="String">Bechir Ellazzem</Data></Cell>
     <Cell><Data ss:Type="String">البشير اللزام</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Emna_Ben_Hmayed</Data></Cell>
     <Cell><Data ss:Type="String">Emna Ben Hmayed</Data></Cell>
     <Cell><Data ss:Type="String">آمنة بن حميد</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Samir_Dilou</Data></Cell>
     <Cell><Data ss:Type="String">Samir Dilou</Data></Cell>
     <Cell><Data ss:Type="String">سمير ديلو</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la santé et des affaires sociales&#10;10/2018→Maintenant&#10;Commission électorale&#10;11/2018→Maintenant&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;03/2015→09/2016&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→09/2016&#10;Commission de la législation générale&#10;10/2016→10/2017&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→11/2017&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→10/2018&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;12/2017→11/2018&#10;Parcours scolaire&#10;Diplôme en droit de la Faculté de Droit de Sousse&#10;Parcours politique&#10;Politiquement actif depuis l'âge de 16 ans, il a été arrêté puis interdit de fréquenter toute école publique en raison de sa participation aux populaires émeutes du pain en 1984&#10;Autres activités&#10;Co-fondateur de l'organisation internationale pour la défense des prisonniers politiques</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sayida_Ounissi</Data></Cell>
     <Cell><Data ss:Type="String">Sayida Ounissi</Data></Cell>
     <Cell><Data ss:Type="String">السيدة الونيسي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Houcine_Jaziri</Data></Cell>
     <Cell><Data ss:Type="String">Houcine Jaziri</Data></Cell>
     <Cell><Data ss:Type="String">الحسين جزيري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Neji_Jmal</Data></Cell>
     <Cell><Data ss:Type="String">Neji Jmal</Data></Cell>
     <Cell><Data ss:Type="String">ناجي الجمل</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission de la législation générale&#10;03/2015→03/2016&#10;Bureau de l'assemblée&#10;Assesseur chargé des tunisiens à l'étranger du 17 octobre 2016 à 06 octobre 2017&#10;Bureau de l'assemblée&#10;Assesseur chargé des relations extérieures du 07 mars 2016 à 30 septembre 2016&#10;Parcours scolaire&#10;Baccalauréat à Toulon (1988)&#10;Maitrise en civilisation à l'Université Lumières de Lyon&#10;Doctorat en histoire&#10;Parcours professionnel&#10;Directeur d'une école privée à Lyon&#10;Parcours politique&#10;Elu à l'Assemblée Nationale Constituante sur la liste du mouvement Ennahdha de la Circonscription de France 2 (2011 - 2014)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Dalila_Babba</Data></Cell>
     <Cell><Data ss:Type="String">Dalila Babba</Data></Cell>
     <Cell><Data ss:Type="String">دليلة الببة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Zrig</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Zrig</Data></Cell>
     <Cell><Data ss:Type="String">محمد زريق</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Amal_Souid</Data></Cell>
     <Cell><Data ss:Type="String">Amal Souid</Data></Cell>
     <Cell><Data ss:Type="String">أمل سويد</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Habib_Khedher</Data></Cell>
     <Cell><Data ss:Type="String">Habib Khedher</Data></Cell>
     <Cell><Data ss:Type="String">الحبيب خضر</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Radhia_Toumi</Data></Cell>
     <Cell><Data ss:Type="String">Radhia Toumi</Data></Cell>
     <Cell><Data ss:Type="String">راضيه التومي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Mohsen_Soudani</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Mohsen Soudani</Data></Cell>
     <Cell><Data ss:Type="String">محمد المحسن سوداني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zeineb_Brahmi</Data></Cell>
     <Cell><Data ss:Type="String">Zeineb Brahmi</Data></Cell>
     <Cell><Data ss:Type="String">زينب براهمي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la législation générale&#10;10/2018→Maintenant&#10;Commission de la législation générale&#10;03/2015→04/2015&#10;Commission des droits et libertés et des relations extérieures&#10;03/2016→09/2016&#10;Commission de la santé et des affaires sociales&#10;10/2016→10/2017&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→10/2018&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→11/2018&#10;Parcours scolaire&#10;Baccalauréat en mathématiques au lycée secondaire 14 Janvier Ksar - Gafsa (2003)&#10;Maitrise en Droit de la Faculté de Droit et des Sciences Politiques, Manar II (2009)&#10;Certificat d'aptitude à la profession d'avocat de l'Institut Supérieur de la Profession d'Avocat (2011)&#10;Parcours professionnel&#10;Avocate stagiaire (2011)&#10;Avocate auprès de la cour d'appel (2014)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Imen_Ben_Mhamed</Data></Cell>
     <Cell><Data ss:Type="String">Imen Ben Mhamed</Data></Cell>
     <Cell><Data ss:Type="String">إيمان بن محمد</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Oussama_Al_Sghaier</Data></Cell>
     <Cell><Data ss:Type="String">Oussama Al Sghaier</Data></Cell>
     <Cell><Data ss:Type="String">أسامة علية الصغير</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des finances, de la planification et du développement&#10;02/2015→09/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;05/2015→09/2016&#10;Commission de la sécurité et de la défense&#10;10/2016→11/2017&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→10/2018&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2017→10/2018&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2017→10/2018&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→10/2018&#10;Bureau de l'assemblée&#10;Assesseur auprès du Président chargé des relations avec les citoyens et la société civile du 18 octobre 2017 à aujourd'hui&#10;Parcours scolaire&#10;Licence en sciences politiques et relations diplomatiques internationales à l'université &quot;La Sapienza&quot; de Rome&#10;Parcours politique&#10;Elu à l'Assemblée Nationale Constituante sur la liste du mouvement Ennahdha de la circonscription de l'Italie (2011 - 2014)&#10;Responsable de l'information du conseil de la choura du mouvement Ennahdha&#10;Autres activités&#10;Fondateur et président de l'Union des jeunes musulmans en Italie&#10;Membre du conseil de la jeunesse pour le pluralisme religieux et culturel au ministère de l'intérieur italien et au ministère de la jeunesse&#10;Représentant du conseil de la jeunesse pour le pluralisme religieux et culture dans la commission relative aux écoles et aux questions juridiques au sein du ministère de l'éducation italien</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ahmed_Mechergui</Data></Cell>
     <Cell><Data ss:Type="String">Ahmed Mechergui</Data></Cell>
     <Cell><Data ss:Type="String">أحمد مشرڨي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sana_Mersni</Data></Cell>
     <Cell><Data ss:Type="String">Sana Mersni</Data></Cell>
     <Cell><Data ss:Type="String">سناء مرسني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mahmoud_Gouiaa</Data></Cell>
     <Cell><Data ss:Type="String">Mahmoud Gouiaa</Data></Cell>
     <Cell><Data ss:Type="String">محمود قويعه</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ferida_Laabidi</Data></Cell>
     <Cell><Data ss:Type="String">Ferida Laabidi</Data></Cell>
     <Cell><Data ss:Type="String">فريدة عبيدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hedi_Soula</Data></Cell>
     <Cell><Data ss:Type="String">Hedi Soula</Data></Cell>
     <Cell><Data ss:Type="String">الهادي صولة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Walid_Banneni</Data></Cell>
     <Cell><Data ss:Type="String">Walid Banneni</Data></Cell>
     <Cell><Data ss:Type="String">الوليد البناني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Safia_Khalfi</Data></Cell>
     <Cell><Data ss:Type="String">Safia Khalfi</Data></Cell>
     <Cell><Data ss:Type="String">صافية خلفي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ali_Bedoui</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ali Bedoui</Data></Cell>
     <Cell><Data ss:Type="String">محمد علي البدوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mahbouba_Ben_Dhifallah</Data></Cell>
     <Cell><Data ss:Type="String">Mahbouba Ben Dhifallah</Data></Cell>
     <Cell><Data ss:Type="String">محبوبة بن ضيف الله</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Imed_Khemiri</Data></Cell>
     <Cell><Data ss:Type="String">Imed Khemiri</Data></Cell>
     <Cell><Data ss:Type="String">عماد الخميري</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la sécurité et de la défense&#10;04/2015→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;10/2018→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→09/2016&#10;Commission des droits et libertés et des relations extérieures&#10;10/2016→10/2017&#10;Commission de la législation générale&#10;10/2017→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Latifa_Habachi</Data></Cell>
     <Cell><Data ss:Type="String">Latifa Habachi</Data></Cell>
     <Cell><Data ss:Type="String">لطيفة الحباشي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdellatif_Mekki</Data></Cell>
     <Cell><Data ss:Type="String">Abdellatif Mekki</Data></Cell>
     <Cell><Data ss:Type="String">عبد اللطيف المكّي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hedi_Ben_Braham</Data></Cell>
     <Cell><Data ss:Type="String">Hedi Ben Braham</Data></Cell>
     <Cell><Data ss:Type="String">الهادي بن ابراهم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Leila_Oueslati</Data></Cell>
     <Cell><Data ss:Type="String">Leila Oueslati</Data></Cell>
     <Cell><Data ss:Type="String">ليلى الوسلاتي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ameur_Laraiedh</Data></Cell>
     <Cell><Data ss:Type="String">Ameur Laraiedh</Data></Cell>
     <Cell><Data ss:Type="String">عامر العريض</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2017→Maintenant&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;04/2015→03/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;03/2016→11/2017&#10;Parcours scolaire&#10;Baccalauréat littéraire au lycée de Tataouine&#10;Maitrise en sociologie de la Faculté des Lettres et des Sciences Humaines de Tunis&#10;Parcours politique&#10;Elu à l'Assemblée Nationale Constituante sur la liste du mouvement Ennahdha de la circonscription France 1 (2011 - 2014)&#10;Président du pôle politique au sein du bureau exécutif du mouvement Ennahdha (2012)&#10;Président du Bureau politique du mouvement Ennahdha (2013)&#10;Membre du bureau exécutif chargé du dialogue national (2014)&#10;Autres activités&#10;Membre du bureau exécutif de l’Union Générale Tunisienne des Etudiants en tant que vice-secrétaire général chargé des relations extérieures&#10;Membre du comité supérieur pour l’organisation du congrès national de l’Union Générale Tunisienne des Etudiants&#10;Président de la commission administrative de l’Union Générale Tunisienne des Etudiants</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Basma_Jebali</Data></Cell>
     <Cell><Data ss:Type="String">Basma Jebali</Data></Cell>
     <Cell><Data ss:Type="String">بسمة الجبالي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ahmed_Ameri</Data></Cell>
     <Cell><Data ss:Type="String">Ahmed Ameri</Data></Cell>
     <Cell><Data ss:Type="String">أحمد عماري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Heger_Bouzemmi</Data></Cell>
     <Cell><Data ss:Type="String">Heger Bouzemmi</Data></Cell>
     <Cell><Data ss:Type="String">هاجر بوزمي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lakhdhar_Belhouchat</Data></Cell>
     <Cell><Data ss:Type="String">Lakhdhar Belhouchat</Data></Cell>
     <Cell><Data ss:Type="String">لخضر بالهوشات</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Kamel_Besbes</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Kamel Besbes</Data></Cell>
     <Cell><Data ss:Type="String">محمد كمال بسباس</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Chahida_Fraj</Data></Cell>
     <Cell><Data ss:Type="String">Chahida Fraj</Data></Cell>
     <Cell><Data ss:Type="String">شهيدة فرج</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Sidhom</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Sidhom</Data></Cell>
     <Cell><Data ss:Type="String">محمد سيدهم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Boutheina_Ben_Yaghlane</Data></Cell>
     <Cell><Data ss:Type="String">Boutheina Ben Yaghlane</Data></Cell>
     <Cell><Data ss:Type="String">بثينة بن يغلان</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Meherzia_Laabidi</Data></Cell>
     <Cell><Data ss:Type="String">Meherzia Laabidi</Data></Cell>
     <Cell><Data ss:Type="String">محرزية العبيدي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des droits et libertés et des relations extérieures&#10;10/2016→Maintenant&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→Maintenant&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;11/2018→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→03/2016&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→09/2016&#10;Commission de la législation générale&#10;04/2016→09/2016&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;10/2016→10/2017&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;10/2017→11/2018&#10;Parcours scolaire&#10;Baccalauréat au lycée secondaire mixte de Grombalia (1982)&#10;Des études supérieures à l'École Normale Supérieure de Sousse jusqu'en 1986&#10;Master en traduction économique de l'École supérieure d'interprètes et de traducteurs de la Sorbonne&#10;Diplôme d'études approfondies en littérature anglaise et en études théâtrales de l'École supérieure d'interprètes et de traducteurs de la Sorbonne (1992)&#10;Parcours professionnel&#10;Enseignante de traduction à l'Institut européen des sciences humaines à Saint-Denis Paris&#10;Ecrivaine et Conférencière sur l’éducation dans les sociétés multiculturellles, la femme, la religion et la société&#10;Parcours politique&#10;Elue à l'Assemblée Nationale Constituante sur la liste du mouvement Ennahdha de la circonscription France 1 et première vice-présidente de l'ANC (2011 - 2014)&#10;Membre du conseil de la Choura du mouvement Ennahdha&#10;Autres activités&#10;Présidente du réseau international &quot;Femmes croyantes pour la paix&quot; depuis 2006&#10;Membre du conseil européen des leaders civiles et religieuses pour la paix</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Maher_Madhioub</Data></Cell>
     <Cell><Data ss:Type="String">Maher Madhioub</Data></Cell>
     <Cell><Data ss:Type="String">ماهر المذيوب</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→Maintenant</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Fathi_Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">Fathi Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">فتحي العيادي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la législation générale&#10;10/2017→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission de la santé et des affaires sociales&#10;05/2015→10/2017</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Soulef_Ksantini</Data></Cell>
     <Cell><Data ss:Type="String">Soulef Ksantini</Data></Cell>
     <Cell><Data ss:Type="String">سلاف القسنطيني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Slim_Besbes</Data></Cell>
     <Cell><Data ss:Type="String">Slim Besbes</Data></Cell>
     <Cell><Data ss:Type="String">سليم بسباس</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Frikha</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Frikha</Data></Cell>
     <Cell><Data ss:Type="String">محمد الفريخة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Kalthoum_Badreddine</Data></Cell>
     <Cell><Data ss:Type="String">Kalthoum Badreddine</Data></Cell>
     <Cell><Data ss:Type="String">كلثوم بدرالدين</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Badreddine_Abdelkefi</Data></Cell>
     <Cell><Data ss:Type="String">Badreddine Abdelkefi</Data></Cell>
     <Cell><Data ss:Type="String">بدر الدين عبدالكافي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Naoufel_Jammali</Data></Cell>
     <Cell><Data ss:Type="String">Naoufel Jammali</Data></Cell>
     <Cell><Data ss:Type="String">نوفل الجمالي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des droits et libertés et des relations extérieures&#10;10/2018→Maintenant&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→12/2015&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;10/2016→11/2016&#10;Commission des droits et libertés et des relations extérieures&#10;11/2016→10/2017&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→10/2018&#10;Bureau de l'assemblée&#10;Assesseur chargé des affaires législatives du 07 décembre 2015 à 29 septembre 2016&#10;Parcours scolaire&#10;Baccalauréat en Lettres au lycée secondaire de Meknassi (1995)&#10;Diplôme d'études juridiques à la Faculté des Sciences Juridiques, Politiques et Sociales de Tunis (1997)&#10;Maitrise en sciences juridiques de la Faculté des Sciences Juridiques, Politiques et Sociales de Tunis (1999)&#10;Diplôme d'études approfondies en droit européen et en relations euro-maghrébines de la Faculté des Sciences Juridiques, Politiques et Sociales de Tunis (2001)&#10;Thèse de doctorat en droit international en cours d'élaboration à la Faculté des Sciences Juridiques, Politiques et Sociales de Tunis&#10;Parcours professionnel&#10;Enseignant universitaire à la Faculté de droit de Sfax (2004)&#10;Directeur de la coopération internationale et des relations extérieures - chargé de mission au ministère de la formation professionnelle et de l'emploi (2012)&#10;Ministre de la formation professionnelle et de l'emploi dans le gouvernement de Ali Laraiedh (2013)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hayet_Omri</Data></Cell>
     <Cell><Data ss:Type="String">Hayet Omri</Data></Cell>
     <Cell><Data ss:Type="String">حياة عمري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zouhair_Rejbi</Data></Cell>
     <Cell><Data ss:Type="String">Zouhair Rejbi</Data></Cell>
     <Cell><Data ss:Type="String">الزهير الرجبي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zied_Laadhari</Data></Cell>
     <Cell><Data ss:Type="String">Zied Laadhari</Data></Cell>
     <Cell><Data ss:Type="String">زياد العذاري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Monia_Brahim</Data></Cell>
     <Cell><Data ss:Type="String">Monia Brahim</Data></Cell>
     <Cell><Data ss:Type="String">منية ابراهيم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lajmi_Lourimi</Data></Cell>
     <Cell><Data ss:Type="String">Lajmi Lourimi</Data></Cell>
     <Cell><Data ss:Type="String">العجمي الوريمي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Bechir_Khelifi</Data></Cell>
     <Cell><Data ss:Type="String">Bechir Khelifi</Data></Cell>
     <Cell><Data ss:Type="String">البشير الخليفي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Commission de la santé et des affaires sociales&#10;10/2018→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission de la législation générale&#10;03/2015→10/2017&#10;Commission de la législation générale&#10;10/2017→10/2018&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;10/2016→11/2018&#10;Commission de la santé et des affaires sociales&#10;10/2018→11/2018&#10;Parcours scolaire&#10;Baccalauréat en économie gestion au lycée secondaire privé Hannibal Djerba (1997)&#10;Dipôme d'études approfondies en droit de l'environnement et de l'urbanisme de la Faculté de Droit et des Sciences Politiques de Tunis (2004)&#10;Parcours professionnel&#10;Avocat auprès de la cour d'appel depuis 2005</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Jamila_Jouini</Data></Cell>
     <Cell><Data ss:Type="String">Jamila Jouini</Data></Cell>
     <Cell><Data ss:Type="String">جميلة الجويني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hssine_Yahyaoui</Data></Cell>
     <Cell><Data ss:Type="String">Hssine Yahyaoui</Data></Cell>
     <Cell><Data ss:Type="String">الحسين اليحياوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Lakhdhar_Lajili</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Lakhdhar Lajili</Data></Cell>
     <Cell><Data ss:Type="String">محمد الأخضر العجيلي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ali_Laraiedh</Data></Cell>
     <Cell><Data ss:Type="String">Ali Laraiedh</Data></Cell>
     <Cell><Data ss:Type="String">علي العريض</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Yamina_Zoghlami</Data></Cell>
     <Cell><Data ss:Type="String">Yamina Zoghlami</Data></Cell>
     <Cell><Data ss:Type="String">يمينة الزغلامي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nadhir_Ben_Ammou</Data></Cell>
     <Cell><Data ss:Type="String">Nadhir Ben Ammou</Data></Cell>
     <Cell><Data ss:Type="String">النذير بن عمو</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdelfattah_Mourou</Data></Cell>
     <Cell><Data ss:Type="String">Abdelfattah Mourou</Data></Cell>
     <Cell><Data ss:Type="String">عبد الفتاح مورو</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Aroua_Ben_Abbas</Data></Cell>
     <Cell><Data ss:Type="String">Aroua Ben Abbas</Data></Cell>
     <Cell><Data ss:Type="String">أروى بن عباس</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Supérieure Indépendante des Elections&#10;03/2016→Maintenant&#10;Commission électorale&#10;10/2016→Maintenant&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2017→Maintenant&#10;Commission électorale&#10;05/2015→09/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→10/2017</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ben_Salem</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ben Salem</Data></Cell>
     <Cell><Data ss:Type="String">محمد بن سالم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lamia_Mlayah</Data></Cell>
     <Cell><Data ss:Type="String">Lamia Mlayah</Data></Cell>
     <Cell><Data ss:Type="String">لمياء المليح</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;04/2018→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;11/2018→Maintenant&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→04/2018&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2017→11/2018&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→12/2018&#10;Bureau de l'assemblée&#10;Assesseure chargée des relations avec le citoyen et la société civile du 16 février 2015 à 30 juillet 2016&#10;Parcours scolaire&#10;Bachelier en Sciences Biologiques de l'école supérieure d’agronomie (1999)&#10;Master en Science en bio-ingénieur de l'école supérieure d’agronomie (2002)&#10;Diplôme des Etudes Approfondies de la faculté universitaire des sciences agronomiques de Gembloux – FUSAGx (2003)&#10;Doctorat en Sciences agronomiques et Ingénierie biologique de l'Université Libre de Bruxelles (2013)&#10;Parcours professionnel&#10;Fonctionnaire au consulat de Tunisie à Bruxelles (service visa et Etat civil)&#10;Parcours politique&#10;Députée au Parlement de jeunesse de la Communauté française (2003)&#10;Autres activités&#10;Membre à la jeune chambre économique de Sousse en Tunisie (2001)&#10;Hôtesse aux XIVème Jeux Méditerranéens à Sousse en Tunisie (2003)&#10;Membre au sein du Cercle culturel de la Commission Européenne; Pensée libre pour l'Europe (2003)&#10;Membre à la jeune chambre économique de Bruxelles en Belgique (2003)&#10;Présidente et fondatrice de l’Association Tunisiennes des Etudiants et des Nouvelles Générations en Belgique et au Luxembourg (2005)&#10;Secrétaire générale du Centre d’Education Populaire et de Promotion Culturelle (2009)&#10;Trésorière du Forum International des Amis des Partenariats: Afrique-Europe/Afrique-Caraïbes-Pacifique (ACP)-UE (2009)&#10;Membre de la Federaties van Zelforganisaties in Vlaanderen vzw (2009)&#10;Administrateur de l’ONG Les frères d’Espérances – De Broeders van de Hoop (2009)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hatem_Ferjani</Data></Cell>
     <Cell><Data ss:Type="String">Hatem Ferjani</Data></Cell>
     <Cell><Data ss:Type="String">حاتم شهر الدين الفرجاني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdelaziz_Kotti</Data></Cell>
     <Cell><Data ss:Type="String">Abdelaziz Kotti</Data></Cell>
     <Cell><Data ss:Type="String">عبد العزيز القطي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;01/2019→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;02/2015→04/2015&#10;Commission électorale&#10;05/2015→09/2016&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;03/2016→09/2016&#10;Commission des finances, de la planification et du développement&#10;10/2016→04/2017&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;10/2016→06/2017&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;11/2017→01/2019&#10;Parcours scolaire&#10;Baccalauréat à Sfax (1987)&#10;Maitrise de l’Ecole Supérieure d’Horticulture de Chott Meriem (1991)&#10;Master de l’Institut National d'Agronomie de Tunisie (1992)&#10;Parcours politique&#10;Membre du Congrès Pour la République (Janvier 2011 - Mai 2012)&#10;Autres activités&#10; Secrétaire général au sein de l'Union Générale des Étudiants de Tunisie</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Leila_Hamrouni</Data></Cell>
     <Cell><Data ss:Type="String">Leila Hamrouni</Data></Cell>
     <Cell><Data ss:Type="String">ليلى الحمروني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hssan_Amri</Data></Cell>
     <Cell><Data ss:Type="String">Hssan Amri</Data></Cell>
     <Cell><Data ss:Type="String">حسن العماري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sabrine_Goubantini</Data></Cell>
     <Cell><Data ss:Type="String">Sabrine Goubantini</Data></Cell>
     <Cell><Data ss:Type="String">صبرين الغبنتني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mounir_Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">Mounir Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">منير الحمدي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la législation générale&#10;10/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→09/2016&#10;Commission électorale&#10;05/2015→09/2016&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2017→10/2017&#10;Commission électorale&#10;10/2016→11/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2016→11/2017&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;11/2017→10/2018&#10;Commission de la sécurité et de la défense&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Certificat d'aptitude à la profession d'avocat</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Najla_Saadaoui</Data></Cell>
     <Cell><Data ss:Type="String">Najla Saadaoui</Data></Cell>
     <Cell><Data ss:Type="String">نجلاء سعداوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Issam_Matoussi</Data></Cell>
     <Cell><Data ss:Type="String">Issam Matoussi</Data></Cell>
     <Cell><Data ss:Type="String">عصام الماطوسي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;10/2018→Maintenant&#10;Commission électorale&#10;11/2018→Maintenant&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→02/2016&#10;Commission électorale&#10;05/2015→03/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2016→09/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;03/2016→09/2016&#10;Commission de la sécurité et de la défense&#10;10/2016→05/2017&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→07/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2016→07/2017&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;07/2017→10/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;11/2017→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Lazhar_Akremi</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Lazhar Akremi</Data></Cell>
     <Cell><Data ss:Type="String">محمد الأزهر عكرمي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Wafa_Makhlouf</Data></Cell>
     <Cell><Data ss:Type="String">Wafa Makhlouf</Data></Cell>
     <Cell><Data ss:Type="String">وفاء مخلوف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Troudi</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Troudi</Data></Cell>
     <Cell><Data ss:Type="String">محمد الطرودي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Olfa_Soukri</Data></Cell>
     <Cell><Data ss:Type="String">Olfa Soukri</Data></Cell>
     <Cell><Data ss:Type="String">ألفة السكري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ali_Ben_Salem</Data></Cell>
     <Cell><Data ss:Type="String">Ali Ben Salem</Data></Cell>
     <Cell><Data ss:Type="String">علي بن سالم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hayet_Kebaier</Data></Cell>
     <Cell><Data ss:Type="String">Hayet Kebaier</Data></Cell>
     <Cell><Data ss:Type="String">حياة كبير</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Brahim_Nacef</Data></Cell>
     <Cell><Data ss:Type="String">Brahim Nacef</Data></Cell>
     <Cell><Data ss:Type="String">ابراهيم ناصف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ibtihej_Ben_Helal</Data></Cell>
     <Cell><Data ss:Type="String">Ibtihej Ben Helal</Data></Cell>
     <Cell><Data ss:Type="String">ابتهاج بن هلال</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Khaled_Chouket</Data></Cell>
     <Cell><Data ss:Type="String">Khaled Chouket</Data></Cell>
     <Cell><Data ss:Type="String">خالد شوكات</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Khaoula_Ben_Aicha</Data></Cell>
     <Cell><Data ss:Type="String">Khawla Ben Aicha</Data></Cell>
     <Cell><Data ss:Type="String">خولة بن عائشة</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;03/2016→09/2016&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2016→10/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→11/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Licence Fondamentale en Gestion de l'Institut des Hautes Etudes Commerciales de Carthage (2010)&#10;Master en Marketing et relations Internationales de l'ESGCI (2012)&#10;MBA en Marketing et Publicité de l'ESG (2012)&#10;Master en Langues et Cultures Etrangères de l'Université de Lorraine(2013)&#10;Doctorat en sciences de l'information et de la communication de l'Université de Lorraine (en cours)&#10;Parcours professionnel&#10;Consultante en marketing et communication&#10;Enseignante assistante à l'université de Lorraine</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Kamel_Dhaouadi</Data></Cell>
     <Cell><Data ss:Type="String">Kamel Dhaouadi</Data></Cell>
     <Cell><Data ss:Type="String">كمال ذوادي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Najia_Ben_Abdelhafidh</Data></Cell>
     <Cell><Data ss:Type="String">Najia Ben Abdelhafidh</Data></Cell>
     <Cell><Data ss:Type="String">ناجية بن عبد الحفيظ</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des droits et libertés et des relations extérieures&#10;10/2017→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→02/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Commission des droits et libertés et des relations extérieures&#10;03/2016→04/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→05/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Diplôme en langue française et civilisation arabo-musulmane</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hassouna_Nasfi</Data></Cell>
     <Cell><Data ss:Type="String">Hassouna Nasfi</Data></Cell>
     <Cell><Data ss:Type="String">حسونه ناصفي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;01/2019→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;02/2019→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→12/2015&#10;Commission du développement régional&#10;05/2015→03/2016&#10;Commission de la législation générale&#10;03/2016→09/2016&#10;Commission de la législation générale&#10;10/2016→02/2017&#10;Commission de la législation générale&#10;04/2017→10/2017&#10;Commission électorale&#10;10/2016→11/2017&#10;Bureau de l'assemblée&#10;Assesseur auprès du Président chargé des relations avec le gouvernement et la présidence de la République du 18 octobre 2017 à 24 novembre 2018&#10;Bureau de l'assemblée&#10;Assesseur chargé de l’Information et de la Communication du 25 janvier 2016 à 02 février 2016</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sofien_Toubel</Data></Cell>
     <Cell><Data ss:Type="String">Sofien Toubel</Data></Cell>
     <Cell><Data ss:Type="String">سفيان طوبال</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Asma_Bou_Hana</Data></Cell>
     <Cell><Data ss:Type="String">Asma Abou Hana</Data></Cell>
     <Cell><Data ss:Type="String">اسماء بو الهناء</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→Maintenant&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2018→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission de la sécurité et de la défense&#10;04/2015→09/2016&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;03/2015→10/2017&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;10/2016→11/2017&#10;Commission de la législation générale&#10;11/2017→11/2017&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2017→10/2018&#10;Parcours scolaire&#10;Maitrise en Droit</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ben_Souf</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ben Souf</Data></Cell>
     <Cell><Data ss:Type="String">محمد بنصوف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Belgacem_Dkhili</Data></Cell>
     <Cell><Data ss:Type="String">Belgacem Dkhili</Data></Cell>
     <Cell><Data ss:Type="String">بلقاسم دخيلي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Jihen_Aouichi</Data></Cell>
     <Cell><Data ss:Type="String">Jihen Aouichi</Data></Cell>
     <Cell><Data ss:Type="String">جيهان عويشي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Chaker_Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">Chaker Ayadi</Data></Cell>
     <Cell><Data ss:Type="String">شاكر عيادي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→02/2016&#10;Commission de la législation générale&#10;03/2016→09/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;04/2016→09/2016&#10;Commission de la législation générale&#10;10/2016→02/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;06/2017→11/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→10/2018&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→08/2019</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Souhail_Alouini</Data></Cell>
     <Cell><Data ss:Type="String">Souhail Alouini</Data></Cell>
     <Cell><Data ss:Type="String">سهيل العلويني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ons_Hattab</Data></Cell>
     <Cell><Data ss:Type="String">Ons Hattab</Data></Cell>
     <Cell><Data ss:Type="String">أنس الحطاب</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission des finances, de la planification et du développement&#10;11/2018→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission des finances, de la planification et du développement&#10;02/2015→02/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→03/2016&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;03/2016→09/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2016→04/2017&#10;Commission des finances, de la planification et du développement&#10;04/2017→10/2017&#10;Commission du développement régional&#10;10/2016→11/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;11/2017→10/2018&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Doctorat en gestion des organisations non gouvernementales</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ennaceur_Jbira</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ennaceur Jbira</Data></Cell>
     <Cell><Data ss:Type="String">محمد الناصر جبيرة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Kamel_Hamzaoui</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Kamel Hamzaoui</Data></Cell>
     <Cell><Data ss:Type="String">محمد كمال حمزاوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ikram_Moulahi</Data></Cell>
     <Cell><Data ss:Type="String">Ikram Moulahi</Data></Cell>
     <Cell><Data ss:Type="String">إكرام مولاهي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Rachdi_Bouguerra</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Rachdi Bouguerra</Data></Cell>
     <Cell><Data ss:Type="String">محمد الراشدي بوقرة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Fadhel_Ben_Omrane</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Fadhel Ben Omrane</Data></Cell>
     <Cell><Data ss:Type="String">محمد الفاضل بن عمران</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mondher_Belhaj_Ali</Data></Cell>
     <Cell><Data ss:Type="String">Mondher Belhaj Ali</Data></Cell>
     <Cell><Data ss:Type="String">المنذر بلحاج علي</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation concernant la corruption financière et l'évasion fiscale et le degré d'implication des tunisiens dont les noms ont été cités dans les &quot;Panama Papers&quot;&#10;04/2016→Maintenant&#10;Commission du développement régional&#10;05/2015→03/2016&#10;Commission de la législation générale&#10;03/2015→09/2016&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2016→12/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;04/2016→03/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;11/2017→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018&#10;Parcours scolaire&#10;Diplômé de la Faculté de Droit et des Sciences Economiques de Tunis&#10;Parcours politique&#10;Membre du comité exécutif du mouvement Nidaa Tounes depuis Septembre 2012</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Houda_Tekaya</Data></Cell>
     <Cell><Data ss:Type="String">Houda Tekaya</Data></Cell>
     <Cell><Data ss:Type="String">هدى تقية</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Nejib_Torjmane</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Nejib Torjmane</Data></Cell>
     <Cell><Data ss:Type="String">محمد نجيب ترجمان</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abada_Kefi</Data></Cell>
     <Cell><Data ss:Type="String">Abada Kefi</Data></Cell>
     <Cell><Data ss:Type="String">عبادة الكافي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">El_Khansa_Ben_Harrath</Data></Cell>
     <Cell><Data ss:Type="String">El Khansa Ben Harrath</Data></Cell>
     <Cell><Data ss:Type="String">الخنساء بن حراث</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mongi_Harbaoui</Data></Cell>
     <Cell><Data ss:Type="String">Mongi Harbaoui</Data></Cell>
     <Cell><Data ss:Type="String">المنجي حرباوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ennaceur</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ennaceur</Data></Cell>
     <Cell><Data ss:Type="String">محمد الناصر</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Souad_Zaouali</Data></Cell>
     <Cell><Data ss:Type="String">Souad Zaouali</Data></Cell>
     <Cell><Data ss:Type="String">سعاد الزوالي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Imed_Ouled_Jebril</Data></Cell>
     <Cell><Data ss:Type="String">Imed Ouled Jebril</Data></Cell>
     <Cell><Data ss:Type="String">عماد أولاد جبريل</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→Maintenant&#10;Commission de la santé et des affaires sociales&#10;10/2018→Maintenant&#10;Commission du développement régional&#10;02/2019→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;03/2019→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→02/2016&#10;Commission électorale&#10;05/2015→03/2016&#10;Commission de la santé et des affaires sociales&#10;03/2016→09/2016&#10;Commission du développement régional&#10;03/2016→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→03/2017&#10;Commission de la législation générale&#10;10/2016→04/2017&#10;Commission électorale&#10;02/2017→11/2017&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2017→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→02/2019&#10;Parcours scolaire&#10;Master en sciences culturelles spécialité théâtre et arts scéniques</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Rabha_Ben_Hassine</Data></Cell>
     <Cell><Data ss:Type="String">Rabha Ben Hassine</Data></Cell>
     <Cell><Data ss:Type="String">رابحة بن حسين</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Bechir_Ben_Amor</Data></Cell>
     <Cell><Data ss:Type="String">Bechir Ben Amor</Data></Cell>
     <Cell><Data ss:Type="String">البشير بن عمر</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Jalel_Ghedira</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Jalel Ghedira</Data></Cell>
     <Cell><Data ss:Type="String">محمد جلال غديرة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hela_Omrane</Data></Cell>
     <Cell><Data ss:Type="String">Hela Omrane</Data></Cell>
     <Cell><Data ss:Type="String">هالة عمران</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Saidane</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Saidane</Data></Cell>
     <Cell><Data ss:Type="String">محمد سعيدان</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sameh_Bouhaouel</Data></Cell>
     <Cell><Data ss:Type="String">Sameh Bouhaouel</Data></Cell>
     <Cell><Data ss:Type="String">سماح بوحوال</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lotfi_Nabli</Data></Cell>
     <Cell><Data ss:Type="String">Lotfi Nabli</Data></Cell>
     <Cell><Data ss:Type="String">لطفي النابلي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Salma_Elloumi</Data></Cell>
     <Cell><Data ss:Type="String">Salma Elloumi</Data></Cell>
     <Cell><Data ss:Type="String">سلمى اللومي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Houssem_Bounenni</Data></Cell>
     <Cell><Data ss:Type="String">Houssem Bounenni</Data></Cell>
     <Cell><Data ss:Type="String">حسام بونني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nadia_Zangar</Data></Cell>
     <Cell><Data ss:Type="String">Nadia Zangar</Data></Cell>
     <Cell><Data ss:Type="String">نادية زنڨر</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Chakib_Bani</Data></Cell>
     <Cell><Data ss:Type="String">Chakib Bani</Data></Cell>
     <Cell><Data ss:Type="String">شكيب باني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Khemais_Ksila</Data></Cell>
     <Cell><Data ss:Type="String">Khemais Ksila</Data></Cell>
     <Cell><Data ss:Type="String">خميس قسيلة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Meriem_Boujbel</Data></Cell>
     <Cell><Data ss:Type="String">Meriem Boujbel</Data></Cell>
     <Cell><Data ss:Type="String">مريم بوجبل</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Walid_Jalled</Data></Cell>
     <Cell><Data ss:Type="String">Walid Jalled</Data></Cell>
     <Cell><Data ss:Type="String">وليد الجلاد</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;11/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;01/2019→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→02/2016&#10;Commission de la sécurité et de la défense&#10;04/2015→02/2016&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2016→10/2017&#10;Commission de la santé et des affaires sociales&#10;11/2017→10/2018&#10;Commission de la santé et des affaires sociales&#10;11/2018→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abderraouf_El_May</Data></Cell>
     <Cell><Data ss:Type="String">Abderraouf El May</Data></Cell>
     <Cell><Data ss:Type="String">عبد الرؤوف الماي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Hedi_Gueddich</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Hedi Gueddich</Data></Cell>
     <Cell><Data ss:Type="String">محمد الهادي قديش</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sameh_Dammak</Data></Cell>
     <Cell><Data ss:Type="String">Sameh Dammak</Data></Cell>
     <Cell><Data ss:Type="String">سماح دمق</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des droits et libertés et des relations extérieures&#10;03/2016→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;11/2017→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→02/2016&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;05/2015→03/2016&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;03/2016→11/2017&#10;Parcours scolaire&#10;Maitrise en beaux arts&#10;Parcours professionnel&#10;Directrice de l'agence publicitaire Grafity depuis 1998&#10;Parcours politique&#10;Co-fondatrice et membre du comité exécutif du mouvement Nidaa Tounes chargée des affaires de la femme (2012)&#10;Autres activités&#10;Vice-présidente nationale du Centre des jeunes dirigeants (2011)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Moncef_Sellami</Data></Cell>
     <Cell><Data ss:Type="String">Moncef Sellami</Data></Cell>
     <Cell><Data ss:Type="String">المنصف السلامي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Heger_Laaroussi</Data></Cell>
     <Cell><Data ss:Type="String">Heger Laaroussi</Data></Cell>
     <Cell><Data ss:Type="String">هاجر العروسي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ismail_Ben_Mahmoud</Data></Cell>
     <Cell><Data ss:Type="String">Ismail Ben Mahmoud</Data></Cell>
     <Cell><Data ss:Type="String">اسماعيل بن محمود</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Fatma_Mseddi</Data></Cell>
     <Cell><Data ss:Type="String">Fatma Mseddi</Data></Cell>
     <Cell><Data ss:Type="String">فاطمة المسدي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Vérité et Dignité&#10;03/2016→Maintenant&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;11/2018→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→09/2016&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2016→10/2017&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→11/2017&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2017→10/2018&#10;Commission électorale&#10;11/2017→11/2018&#10;Parcours scolaire&#10;Baccalauréat en sciences expérimentales (1998)&#10;Diplôme de premier cycle à l’institut préparatoire aux écoles d’ingénieurs Sfax (2000)&#10;Maîtrise en science de la vie à la faculté des sciences de Sfax (2002)&#10;Master en biologie moléculaire et cellulaire à la faculté des sciences de Sfax (2004)&#10;Doctorat en sciences biologiques à la faculté des sciences de Sfax (2011)&#10;Parcours professionnel&#10;Chercheur dans le laboratoire de biologie moléculaire et cellulaire parasitaire et fongique dans la faculté de médecine de sfax depuis 2005&#10;Enseignante des travaux pratiques de physiologie humaine et animale à l’institut supérieur de biotechnologie de Sfax sous forme de contrat étudiant-chercheur (2005- 2006)&#10;Enseignante des travaux pratiques de physiologie humaine et animale à l’institut supérieur de biotechnologie de Sfax sous forme de contrat étudiant-chercheur (2006- 2007)&#10;Enseignante des travaux pratiques de toxicologie à l’institut supérieur de biotechnologie de Sfax sous forme de contrat assistant-contractuel (2011- 2012)&#10;Enseignante des travaux pratiques de microbiologie générale et microbiologie alimentaire à l’institut supérieur de biotechnologie de Sfax sous forme de contrat assistant-contractuel (2012- 2013)&#10;Parcours politique&#10;Adhérente au mouvement Nidaa Tounes depuis juillet 2012&#10;Membre du bureau régional de Nidaa Tounes - Sfax 2&#10;Formatrice nationale du mouvement Nida Tounes&#10;Présidente de la commission régionale de formation à Sfax 2&#10;Membre dans les comités d’organisation des meetings et des activités de Nidaa Tounes à Sfax 2&#10;Autres activités&#10;Présidente du bureau régional de Sfax de l’association tunisienne des docteurs et doctorants scientifiques - ATDocS - depuis mai 2011&#10;Observatrice dans les élections législatives tunisiennes octobre 2011 avec le réseau Mourakiboun&#10;Membre de l'assemblée constituante civile (2011)&#10;Membre d’association féminine « MOUWATINET  » depuis août 2011&#10;Membre de l’association tunisienne de thérapie cellulaire et plusieurs associations scientifiques</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Salem_Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">Salem Hamdi</Data></Cell>
     <Cell><Data ss:Type="String">سالم حامدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abir_Abdelli</Data></Cell>
     <Cell><Data ss:Type="String">Abir Abdelli</Data></Cell>
     <Cell><Data ss:Type="String">عبير عبدلي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Salah_Bargaoui</Data></Cell>
     <Cell><Data ss:Type="String">Salah Bargaoui</Data></Cell>
     <Cell><Data ss:Type="String">صـلاح البرقاوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sana_Salhi</Data></Cell>
     <Cell><Data ss:Type="String">Sana Salhi</Data></Cell>
     <Cell><Data ss:Type="String">سناء الصالحي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ridha_Charfeddine</Data></Cell>
     <Cell><Data ss:Type="String">Ridha Charfeddine</Data></Cell>
     <Cell><Data ss:Type="String">رضا شرف الدين</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de la santé et des affaires sociales&#10;10/2018→Maintenant&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→03/2016&#10;Commission de la santé et des affaires sociales&#10;05/2015→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Zohra_Idriss</Data></Cell>
     <Cell><Data ss:Type="String">Zohra Idriss</Data></Cell>
     <Cell><Data ss:Type="String">الزهرة ادريس</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hamdi_Guezguez</Data></Cell>
     <Cell><Data ss:Type="String">Hamdi Guezguez</Data></Cell>
     <Cell><Data ss:Type="String">حمدي قزقز</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nawel_Tayech</Data></Cell>
     <Cell><Data ss:Type="String">Nawel Tayech</Data></Cell>
     <Cell><Data ss:Type="String">نوال طياش</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Faycel_Khelifa</Data></Cell>
     <Cell><Data ss:Type="String">Faycel Khelifa</Data></Cell>
     <Cell><Data ss:Type="String">فيصل خليفة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Taieb_Medni</Data></Cell>
     <Cell><Data ss:Type="String">Taieb Medni</Data></Cell>
     <Cell><Data ss:Type="String">الطيب المدني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abderraouf_Cherif</Data></Cell>
     <Cell><Data ss:Type="String">Abderraouf Cherif</Data></Cell>
     <Cell><Data ss:Type="String">عبد الرؤوف الشريف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Leila_Ouled_Ali</Data></Cell>
     <Cell><Data ss:Type="String">Leila Ouled Ali</Data></Cell>
     <Cell><Data ss:Type="String">ليلى أولاد علي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdennaceur_Chouikh</Data></Cell>
     <Cell><Data ss:Type="String">Abdennaceur Chouikh</Data></Cell>
     <Cell><Data ss:Type="String">عبد الناصر شويخ</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ibtissem_Jebabli</Data></Cell>
     <Cell><Data ss:Type="String">Ibtissem Jebabli</Data></Cell>
     <Cell><Data ss:Type="String">ابتسام جبابلي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Said_Aidi</Data></Cell>
     <Cell><Data ss:Type="String">Said Aidi</Data></Cell>
     <Cell><Data ss:Type="String">سعيد العايدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Bochra_Belhaj_Hamida</Data></Cell>
     <Cell><Data ss:Type="String">Bochra Belhaj Hamida</Data></Cell>
     <Cell><Data ss:Type="String">بشرى بلحاج حميدة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mustapha_Ben_Ahmed</Data></Cell>
     <Cell><Data ss:Type="String">Mustapha Ben Ahmed</Data></Cell>
     <Cell><Data ss:Type="String">مصطفى بن أحمد</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→Maintenant&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;11/2018→Maintenant&#10;Commission spéciale du règlement intérieur&#10;12/2014→02/2015&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→02/2016&#10;Commission de la sécurité et de la défense&#10;04/2015→02/2016&#10;Commission électorale&#10;03/2016→09/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2016→12/2016&#10;Commission de la sécurité et de la défense&#10;10/2016→04/2017&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2017→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Leila_ِChettaoui_Bougatef</Data></Cell>
     <Cell><Data ss:Type="String">Leila ِChettaoui Bougatef</Data></Cell>
     <Cell><Data ss:Type="String">ليلى الشتاوي بوقطف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sahbi_Ben_Fraj</Data></Cell>
     <Cell><Data ss:Type="String">Sahbi Ben Fraj</Data></Cell>
     <Cell><Data ss:Type="String">الصحبي بن فرج</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Ramzi_Khmiss</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Ramzi Khmiss</Data></Cell>
     <Cell><Data ss:Type="String">محمد رمزي خميس</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Vérité et Dignité&#10;03/2016→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;08/2019→Maintenant&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;03/2015→02/2016&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2016→09/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→04/2017&#10;Commission des affaires des tunisiens à l’étranger&#10;05/2017→11/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2016→11/2017&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→10/2018&#10;Commission du développement régional&#10;12/2017→11/2018&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2018→04/2019&#10;Commission de la sécurité et de la défense&#10;11/2018→07/2019&#10;Parcours scolaire&#10;Baccalauréat en sciences et mathématiques au lycée Mahmoud Messadi d'El Fahs (1989)&#10;Parcours professionnel&#10;Instituteur à l'Ecole primaire d'El Fahs (1990 - 1994)&#10;Régisseur régional de dépenses à la direction régionale de la Poste depuis 1994&#10;Parcours politique&#10;Maire d'El Fahs depuis 2010&#10;Membre du mouvement Nidaa Tounes (2013)&#10;Autres activités&#10;Président de l'Etoile Sportive du Fahs (2005 - 2008)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Leila_Zahaf</Data></Cell>
     <Cell><Data ss:Type="String">Leila Zahaf</Data></Cell>
     <Cell><Data ss:Type="String">ليلى الزحاف</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lotfi_Ali</Data></Cell>
     <Cell><Data ss:Type="String">Lotfi Ali</Data></Cell>
     <Cell><Data ss:Type="String">لطفي علي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2017→Maintenant&#10;Commission d'investigation sur le classement de la Tunisie en tant que paradis fiscal&#10;02/2018→Maintenant&#10;Commission du développement régional&#10;11/2018→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;03/2015→04/2016&#10;Commission de la sécurité et de la défense&#10;04/2015→09/2016&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2016→10/2017&#10;Commission électorale&#10;10/2016→11/2017&#10;Commission de la sécurité et de la défense&#10;11/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ahmed_Saidi</Data></Cell>
     <Cell><Data ss:Type="String">Ahmed Saidi</Data></Cell>
     <Cell><Data ss:Type="String">أحمد السعيدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Naceur_Channoufi</Data></Cell>
     <Cell><Data ss:Type="String">Naceur Channoufi</Data></Cell>
     <Cell><Data ss:Type="String">الناصر الشنوفي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2018→Maintenant&#10;Commission électorale&#10;11/2018→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→09/2016&#10;Commission du développement régional&#10;05/2015→04/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2016→11/2017&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;11/2017→10/2018&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;12/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Youssef_Jouini</Data></Cell>
     <Cell><Data ss:Type="String">Youssef Jouini</Data></Cell>
     <Cell><Data ss:Type="String">يوسف الجويني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noureddine_Ben_Achour</Data></Cell>
     <Cell><Data ss:Type="String">Noureddine Ben Achour</Data></Cell>
     <Cell><Data ss:Type="String">نور الدين بن عاشور</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Taoufik_Jemli</Data></Cell>
     <Cell><Data ss:Type="String">Taoufik Jemli</Data></Cell>
     <Cell><Data ss:Type="String">توفيق الجملي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ali_Belakhoua</Data></Cell>
     <Cell><Data ss:Type="String">Ali Belakhoua</Data></Cell>
     <Cell><Data ss:Type="String">علي بالاخوة</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spéciale chargée des finances&#10;12/2014→12/2014&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;04/2015→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→11/2017&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→01/2019&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;11/2018→01/2019&#10;Parcours scolaire&#10;Baccalauréat (1983)&#10;Diplôme d'ingénieur électrique de l'Université du Missouri aux États-Unis d'Amérique (1987)&#10;Parcours professionnel&#10;Directeur Général de la Société Starz Electronics depuis 2011&#10;Autres activités&#10;Vice-président du Club Athlétique Bizertin (2007 - 2009)&#10;Président de la chambre de commerce tuniso-américaine à Bizerte depuis 2012</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Amine_Kahloul</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Amine Kahloul</Data></Cell>
     <Cell><Data ss:Type="String">محمد الأمين كحلول</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Dorra_Yaacoubi</Data></Cell>
     <Cell><Data ss:Type="String">Dorra Yaacoubi</Data></Cell>
     <Cell><Data ss:Type="String">درة يعقوبي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Supérieure Indépendante des Elections&#10;03/2016→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;04/2015→03/2016&#10;Commission électorale&#10;03/2016→09/2016&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;02/2015→10/2017&#10;Commission électorale&#10;10/2016→11/2017&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2017→10/2018&#10;Commission du développement régional&#10;12/2017→01/2019&#10;Commission de l’industrie, de l’énergie, des ressources naturelles, de l’infrastructure et de l’environnement&#10;10/2018→01/2019</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tarek_Fetiti</Data></Cell>
     <Cell><Data ss:Type="String">Tarek Fetiti</Data></Cell>
     <Cell><Data ss:Type="String">طارق فتيتي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mahmoud_Kahri</Data></Cell>
     <Cell><Data ss:Type="String">Mahmoud Kahri</Data></Cell>
     <Cell><Data ss:Type="String">محمود قاهري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Faouzia_Ben_Fodha</Data></Cell>
     <Cell><Data ss:Type="String">Faouzia Ben Fodha</Data></Cell>
     <Cell><Data ss:Type="String">فوزية بن فضة</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Kamel_Harraghi</Data></Cell>
     <Cell><Data ss:Type="String">Kamel Harraghi</Data></Cell>
     <Cell><Data ss:Type="String">كمال هراغي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;12/2017→Maintenant&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;03/2015→11/2017&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;05/2015→12/2017&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;11/2017→10/2018&#10;Commission de la jeunesse, des affaires culturelles, de l'éducation et de la recherche scientifique&#10;10/2018→03/2019&#10;Parcours scolaire&#10;Niveau enseignement secondaire&#10;Parcours professionnel&#10;Attaché administratif à la Caisse Nationale de Sécurité Sociale depuis 1976&#10;Autres activités&#10;Joueur international de football&#10;Joueur au sein de l'Olympique du Kef&#10;Président de la division football de l'Olympique du Kef</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tahar_Fdhil</Data></Cell>
     <Cell><Data ss:Type="String">Tahar Fdhil</Data></Cell>
     <Cell><Data ss:Type="String">الطاهر فضيل</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdelkader_Ben_Dhifallah</Data></Cell>
     <Cell><Data ss:Type="String">Abdelkader Ben Dhifallah</Data></Cell>
     <Cell><Data ss:Type="String">عبد القادر بنضيف الله</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noureddine_Mrabti</Data></Cell>
     <Cell><Data ss:Type="String">Noureddine Mrabti</Data></Cell>
     <Cell><Data ss:Type="String">نورالدين المرابطي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de supervision des opérations de vote et décompte des voix&#10;12/2014→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;10/2018→Maintenant&#10;Commission du développement régional&#10;11/2018→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;11/2017→10/2018&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2017→11/2018&#10;Bureau de l'assemblée&#10;Assesseur chargé des relations avec le gouvernement et des relations avec la présidence de la république du 16 février 2015 à 06 octobre 2017&#10;Parcours scolaire&#10;Baccalauréat en Lettres au lycée secondaire d'Al Mhamdia (1997)&#10;Maitrise en histoire de la Faculté des Sciences Humaines et Sociales de Tunis - 9 Avril (2002)&#10;Master en histoire moderne de la Faculté des Sciences Humaines et Sociales de Tunis - 9 Avril (2004)&#10;Parcours professionnel&#10;Enseignant au lycée secondaire Mongi Slim de Siliana (2007)&#10;Enseignant au lycée secondaire de Kesra (2010)&#10;Enseignant au lycée secondaire Farhat Hached de Makthar (2011)&#10;Parcours politique&#10;Elu à l'Assemblée Nationale Constituante sur la liste de l'Union Patriotique Libre de la circonscription de Siliana (2011 - 2014)&#10;Elu à l'Assemblée Nationale Constituante sur la liste de l'Union Patriotique Libre de la circonscription de Siliana (2011 - 2014)&#10;Autres activités&#10;Membre du bureau exécutif de l'Union Patriotique Libre</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abderraouf_Chebbi</Data></Cell>
     <Cell><Data ss:Type="String">Abderraouf Chebbi</Data></Cell>
     <Cell><Data ss:Type="String">عبد الرؤوف الشابي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des affaires des tunisiens à l’étranger&#10;11/2017→Maintenant&#10;Commission des finances, de la planification et du développement&#10;03/2019→Maintenant&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;03/2015→02/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;04/2015→09/2016&#10;Commission des finances, de la planification et du développement&#10;03/2016→09/2016&#10;Commission des affaires des tunisiens à l’étranger&#10;10/2016→11/2017&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2016→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohsen_Hssan</Data></Cell>
     <Cell><Data ss:Type="String">Mohsen Hssan</Data></Cell>
     <Cell><Data ss:Type="String">محسن حسن</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ridha_Zghondi</Data></Cell>
     <Cell><Data ss:Type="String">Ridha Zghondi</Data></Cell>
     <Cell><Data ss:Type="String">رضا الزغندي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Rim_Mahjoub</Data></Cell>
     <Cell><Data ss:Type="String">Rim Mahjoub</Data></Cell>
     <Cell><Data ss:Type="String">ريم محجوب</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission spécialisée en l'examen et le tri des dossiers de candidature à l'Instance Supérieure Indépendante des Elections&#10;03/2016→Maintenant&#10;Commission des finances, de la planification et du développement&#10;10/2016→Maintenant&#10;Commission d'investigation concernant les réseaux impliqués dans l'envoi des jeunes tunisiens vers les zones de combat&#10;02/2017→Maintenant&#10;Commission des affaires de la femme, de la famille, de l’enfance, de la jeunesse et des personnes âgées&#10;11/2018→Maintenant&#10;Commission électorale&#10;05/2015→03/2016&#10;Commission de la législation générale&#10;03/2015→09/2016&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;10/2016→11/2017&#10;Commission de la réforme administrative, de la bonne gouvernance, de la lutte contre la corruption et du contrôle de gestion des deniers publics&#10;11/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lilia_Younes_Ksibi</Data></Cell>
     <Cell><Data ss:Type="String">Lilia Younes Ksibi</Data></Cell>
     <Cell><Data ss:Type="String">ليليا يونس كسيبي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nozha_Biaoui</Data></Cell>
     <Cell><Data ss:Type="String">Nozha Biaoui</Data></Cell>
     <Cell><Data ss:Type="String">نزهة بياوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Moez_Belhaj_Rhouma</Data></Cell>
     <Cell><Data ss:Type="String">Moez Belhaj Rhouma</Data></Cell>
     <Cell><Data ss:Type="String">معز بلحاج رحومة</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2018→Maintenant&#10;Commission des affaires des personnes ayant un handicap et des catégories précaires&#10;10/2016→06/2017&#10;Commission des finances, de la planification et du développement&#10;04/2015→10/2018&#10;Commission électorale&#10;11/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Wafa_Attia</Data></Cell>
     <Cell><Data ss:Type="String">Wafa Attia</Data></Cell>
     <Cell><Data ss:Type="String">وفاء عطية</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Taher_Battikh</Data></Cell>
     <Cell><Data ss:Type="String">Taher Battikh</Data></Cell>
     <Cell><Data ss:Type="String">الطاهر بطيخ</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lamia_Gharbi</Data></Cell>
     <Cell><Data ss:Type="String">Lamia Gharbi</Data></Cell>
     <Cell><Data ss:Type="String">لمياء الغربي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Houda_Slim</Data></Cell>
     <Cell><Data ss:Type="String">Houda Slim</Data></Cell>
     <Cell><Data ss:Type="String">هدى سليم</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Noura_Amri</Data></Cell>
     <Cell><Data ss:Type="String">Noura Amri</Data></Cell>
     <Cell><Data ss:Type="String">نورة العامري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Taoufik_Ouali</Data></Cell>
     <Cell><Data ss:Type="String">Taoufik Ouali</Data></Cell>
     <Cell><Data ss:Type="String">توفيق والي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Olfa_Jouini</Data></Cell>
     <Cell><Data ss:Type="String">Olfa Jouini</Data></Cell>
     <Cell><Data ss:Type="String">ألفة الجويني</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Marouan_Falfel</Data></Cell>
     <Cell><Data ss:Type="String">Marouan Falfel</Data></Cell>
     <Cell><Data ss:Type="String">مروان فلفال</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lamia_Dridi</Data></Cell>
     <Cell><Data ss:Type="String">Lamia Dridi</Data></Cell>
     <Cell><Data ss:Type="String">لمياء  الدريدي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Faten_Oueslati</Data></Cell>
     <Cell><Data ss:Type="String">Faten  Oueslati</Data></Cell>
     <Cell><Data ss:Type="String">فاتن  الوسلاتي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Karima_Taggaz</Data></Cell>
     <Cell><Data ss:Type="String">Karima  Taggaz</Data></Cell>
     <Cell><Data ss:Type="String">كريمة  التقاز</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Heger_Ben_Cheikh_Ahmed</Data></Cell>
     <Cell><Data ss:Type="String">Heger Ben Cheikh Ahmed</Data></Cell>
     <Cell><Data ss:Type="String">هاجر بالشيخ أحمد</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Abdelouahab_Ouerfelli</Data></Cell>
     <Cell><Data ss:Type="String">Abdelouahab Ouerfelli</Data></Cell>
     <Cell><Data ss:Type="String">عبد الوهاب الورفلي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission du règlement intérieur, de l’immunité, des lois parlementaires et des lois électorales&#10;10/2018→Maintenant&#10;Commission du développement régional&#10;11/2018→Maintenant&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2017→11/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mohamed_Abdellaoui</Data></Cell>
     <Cell><Data ss:Type="String">Mohamed Abdellaoui</Data></Cell>
     <Cell><Data ss:Type="String">محمد عبد اللاوي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Amira_Zoukari</Data></Cell>
     <Cell><Data ss:Type="String">Amira Zoukari</Data></Cell>
     <Cell><Data ss:Type="String">أميرة زوكاري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Yassine_Ayari</Data></Cell>
     <Cell><Data ss:Type="String">Yassine Ayari</Data></Cell>
     <Cell><Data ss:Type="String">ياسين العياري</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des affaires des tunisiens à l’étranger&#10;03/2018→Maintenant&#10;Commission des droits et libertés et des relations extérieures&#10;11/2018→Maintenant&#10;Commission de l’agriculture, de la sécurité alimentaire, du commerce et les services liés&#10;05/2018→10/2018</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Nesrine_Laamari</Data></Cell>
     <Cell><Data ss:Type="String">Nesrine Laamari</Data></Cell>
     <Cell><Data ss:Type="String">نسرين العماري</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Maroua_Bouazzi</Data></Cell>
     <Cell><Data ss:Type="String">Maroua Bouazzi</Data></Cell>
     <Cell><Data ss:Type="String">مروى بوعزي</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Membre de:&#10;Commission des martyrs et blessés de la révolution, de l’application de la loi de l’amnistie générale et de la justice transitionnelle&#10;11/2018→Maintenant&#10;Commission de l’organisation de l’administration et des affaires des forces armées&#10;10/2018→11/2018&#10;Commission de la santé et des affaires sociales&#10;10/2018→01/2019</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Jihene_Abadi</Data></Cell>
     <Cell><Data ss:Type="String">Jihene Abadi</Data></Cell>
     <Cell><Data ss:Type="String">جيهان عبادي</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hager_Triki</Data></Cell>
     <Cell><Data ss:Type="String">Hager Triki</Data></Cell>
     <Cell><Data ss:Type="String">هاجر تريكي</Data></Cell>
@@ -1256,11 +1331,13 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <RangeSelection>R1C1:R242C3</RangeSelection>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

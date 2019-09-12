@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: Raed
- * Date: 06/09/2019
- * Time: 20:11
+ * Date: 07/09/2019
+ * Time: 21:13
  */
 /*
- * data for api : userName , email , password
+ * data for api : subject, email , message
  */
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
@@ -19,31 +19,30 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 include_once '../../includes/connextionBD.php';
 // instantiate product object
 include_once '../objects/User.php';
+include_once '../objects/Message.php';
 
 $db = connextionBD::getInstance();
 
-$user = new User($db);
-
+$message = new Message($db);
 $data = json_decode(file_get_contents("php://input"));
 
 if (
-    !empty($data->userName) &&
+    !empty($data->subject) &&
     !empty($data->email) &&
-    !empty($data->password)
+    !empty($data->message)
 ) {
     // set product property values
-    $user->name = $data->userName;
-    $user->email = $data->email;
-    $user->password = $data->password;
-    $user->isActive = true;
+    $message->subject=$data->subject;
+    $message->message=$data->message;
+    $message->email=$data->email;
 
-    if ($user->create()) {
+    if ($message->create()) {
 
         // set response code - 201 created
         http_response_code(201);
 
         // tell the user
-        echo json_encode(array("message" => $user->id));
+        echo json_encode(array("message" => "created"));
         // if unable to create the product, tell the user
     } else {
 
@@ -51,7 +50,7 @@ if (
         http_response_code(503);
 
         // tell the user
-        echo json_encode(array("message" => "Unable to create. email exists"));
+        echo json_encode(array("message" => "Unable to create."));
     }
 } // tell the user data is incomplete
 else {

@@ -1,0 +1,15 @@
+create user api :
+    http://dashboard.leadindextn.com/api/users/create.php
+    expected data : {
+                	"userName" : "test test",
+                	"email" : "test.com",
+                	"password" : "test"
+                    }
+    expected output : 201 with user id or 503 if email exists or 400 if data is missing
+
+
+get one user api :
+    http://dashboard.leadindextn.com/api/users/read_one.php?id={int(wanted id)}
+    expected get data : id type int
+    expected output : 200 with user data
+

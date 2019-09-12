@@ -41,7 +41,7 @@
 									<a class="btn btn-info" href="edit_data.php?uID=<?php echo $row['id']; ?>">
 										<i class="halflings-icon white edit"></i>  
 									</a>
-									<a class="btn btn-danger" onclick="return confirmDel()" href="delete_data.php?delID=<?php echo $row['id'];?>">
+									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data.php?delID=<?php echo $row['id'];?>">
 										<i class="halflings-icon white trash"></i> 
 									</a>
 								</td>

@@ -4,7 +4,6 @@
 	<div class="clearfix"></div>	
 	<footer>
 		<p>
-			<span style="text-align:left;float:left">&copy; 2016 <a href="#" alt="Administrator Panel">Excellent IT Solutions</a></span>			
 		</p>
 	</footer>
 		<script src="js/jquery-1.9.1.min.js"></script>

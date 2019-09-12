@@ -136,7 +136,7 @@ if (!isset($_SESSION['pwd'])) {
                             <li class="dropdown-menu-title">
                                 <span>Account Settings</span>
                             </li>
-                            <li><a href="change_admin_password.php"><i class="halflings-icon cog"></i> Change Password
+                            <li><a href="actions/change_admin_password.php"><i class="halflings-icon cog"></i> Change Password
                                 </a></li>
                             <li><a href="logout.php"><i class="halflings-icon off"></i> Logout</a></li>
                         </ul>

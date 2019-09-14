@@ -11,5 +11,67 @@ create user api :
 get one user api :
     http://dashboard.leadindextn.com/api/users/read_one.php?id={int(wanted id)}
     expected get data : id type int
-    expected output : 200 with user data
+    expected output : 200 with user data or 404 user not found
 
+login api
+    http://dashboard.leadindextn.com/api/users/login.php
+    expected data :{
+                   	"email" : "Ahmed@Hamdeen.om",
+                   	"password" : "test"
+                   }
+    expected output : 200 with user id or 400 login failed
+
+update api
+    http://dashboard.leadindextn.com/api/users/update.php
+    expected data : {
+                        'id':'13' required,
+                        "email" : optional,
+                        "userName" : optional,
+                        "password" : optional,
+                    }
+    expected out : 200 user was updated or 401 unable to update user
+
+forgot_password api
+    http://dashboard.leadindextn.com/api/users/forgot_password.php
+    expected data : {
+                        'email':"test@test"
+                    }
+    expected out : 200 password sent or 400 email not found
+
+
+
+// dep api's
+
+get all deps api
+     http://dashboard.leadindextn.com/api/deputies/get_all.php
+     expected out : 200 & array records contains all deps
+
+getDep api
+http://dashboard.leadindextn.com/api/deputies/getDep.php?id="karim_helali"
+    expected get data : id="" (string)
+    expected out : 200 with dep data or 404 dep not found
+
+get_by_gov api
+http://dashboard.leadindextn.com/api/deputies/get_by_gov?gov="sfax"
+    expected get data gov(string)
+    expected out : 200 & array records contains all deps or 404 no dep found
+
+get perm api
+http://dashboard.leadindextn.com/api/deputies/getPerm.php?id="karim_helali"
+    expected get data : id(string)
+    expected out : 200 with perm %(float) , topPerm(float) , topPermId(string) , avg(float) or 404 no data found
+
+get spec api
+http://dashboard.leadindextn.com/api/deputies/getSpec.php?id="karim_helali"
+    expected get data : id(string)
+    expected out : 200 with spec % , topSpec , topSpecId , avg or 404 no data found
+
+get ple api
+http://dashboard.leadindextn.com/api/deputies/getPle.php?id="karim_helali"
+    expected get data : id(string)
+    expected out : 200 with ple % , topPle , topPleId , avg or 404 no data found
+
+get votes api
+http://dashboard.leadindextn.com/api/deputies/getVotes.php?id="karim_helali"
+    expected get data : id(string)
+    expected out : 200 with votes % , topVotes , topVotesId , avg or 404 no data found

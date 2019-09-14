@@ -59,5 +59,5 @@ else {
     http_response_code(400);
 
     // tell the user
-    echo json_encode(array("message" => "Unable to create user. missing data."));
+    echo json_encode(array("message" => "Unable to create message. missing data."));
 }

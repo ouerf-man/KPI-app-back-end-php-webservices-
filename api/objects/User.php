@@ -174,10 +174,10 @@ class User
 
         // unique ID of record to be edited
         $stmt->bindParam(':id', $this->id);
-        $user2 = new User();
+        $user2 = new User($this->conn);
         $user2->email = $this->email;
         // execute the query
-        if ($stmt->execute() && !$user2->emailExists()) {
+        if (!$user2->emailExists()&&$stmt->execute()) {
             return true;
         }
 
@@ -207,7 +207,7 @@ class User
         // send email here ...
         $to_email = $this->email;
         $subject = 'password';
-        $message = 'your passwrd is ' . $userPassword;
+        $message = 'your password is ' . $userPassword;
         mail($to_email, $subject, $message);
 
     }

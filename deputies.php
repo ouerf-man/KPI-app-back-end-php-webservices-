@@ -38,6 +38,7 @@
 								$sql = "SELECT * FROM elected";
                                 $bd = connextionBD::getInstance(); //rs.open sql,con
                                 $stmt = $bd->query($sql);
+
 							while ($row=$stmt->fetch())
 							{ ?><!--open of while -->
 							<tr>
@@ -48,7 +49,7 @@
 									<a class="btn btn-info" href="deputie.php?dID=<?php echo"'". $row['elu_id']."'"; ?>">
 										Read more
 									</a>
-									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data_dep.php?delID=<?php echo "\"".$row['elu_id']."\"";?>">
+									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data_dep.php?delID=<?php echo"'". $row['elu_id']."'"; ?>">
 										<i class="halflings-icon white trash"></i>
 									</a>
 								</td>
@@ -56,9 +57,12 @@
 							<?php
 							   } //close of while
 							?>
+
 						  </tbody>
+
 					  </table>
 					</div>
+                    <a class="btn btn-info" href="add_dep.php" style="margin: 10px">Add value</a>
 				</div><!--/span-->
 
 			</div><!--/row-->

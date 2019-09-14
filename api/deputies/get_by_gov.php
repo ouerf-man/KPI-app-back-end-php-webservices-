@@ -51,7 +51,8 @@ if($num>0){
             "nomFr" => $elu_nom_fr,
             "nomAr" => $elu_nom_ar,
             "gov" => $gov,
-            "bio" => $bio
+            "bio" => $bio,
+            "img" =>"http://" . $_SERVER['SERVER_NAME'] ."/".$img
         );
 
         array_push($deputies_arr["records"], $deputie_item);

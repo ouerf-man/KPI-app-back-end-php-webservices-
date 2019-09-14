@@ -11,12 +11,14 @@ $id = $_GET['delID'];
 require_once('../includes/connextionBD.php');
 $bd = connextionBD::getInstance();
 
-$sql = "DELETE FROM delete WHERE elu_id=$id";
+$sql = "DELETE FROM elected WHERE elu_id=".$id."";
+echo $sql;
 if($stmt = $bd->query($sql))
 {
     header('location:../deputies.php');
 }
 else
 {
-    die('Could not delete record:' .mysqli_error());
+    var_dump($bd->errorInfo());
+    die('Could not delete record:' );
 }

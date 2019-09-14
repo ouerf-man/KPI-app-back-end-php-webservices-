@@ -2,122 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0cdaed-03c2-406c-8b2d-b68f99ff22dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/add_value_confirmation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add_value.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/contact/message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/getDep.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/getPerm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/getPle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/getSpec.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/getVotes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/get_all.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/deputies/get_by_gov.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/Deputie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/readMe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/users/forgot_password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/users/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/users/read_one.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/users/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAvg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/add_dep_confirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/modify_value_confirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/update_value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_dep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/breadcumb5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modify_value.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/edit_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/add_value_confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/add_value_confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/delete_data_dep.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/delete_data_dep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_value.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/contact/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/contact/message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/deputies/get_by_gov.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/deputies/get_by_gov.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/objects/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/objects/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/users/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/readMe" beforeDir="false" afterPath="$PROJECT_DIR$/api/readMe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deputie.php" beforeDir="false" afterPath="$PROJECT_DIR$/deputie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deputies.php" beforeDir="false" afterPath="$PROJECT_DIR$/deputies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elected.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/elected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrows-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrows-normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-input-focus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/browser-chrome-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/browser-firefox-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/browser-ie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/browser-opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/browser-safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-left-metro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-left-metro@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-left@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-right-metro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-right-metro@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chat-right@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/close-button-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/close-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/crop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dialogs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/photo9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons_halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons_halflings-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons_halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/glyphicons_halflings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-style-checkboxes/off-63584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-style-checkboxes/on-63584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-style-checkboxes/slider_center-63584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-style-checkboxes/slider_left-63584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/iphone-style-checkboxes/slider_right-63584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/progress.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quicklook-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quicklook-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/resize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider_r8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spinner-mini.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timeline-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timeline-left-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timeline-left-arrow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timeline-right-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/timeline-right-arrow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/toolbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/toolbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/uploadify-cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats_deputes Al Bawsala 27 08 2019.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Mustapha_Ben Ahmed.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,17 +34,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
+        <entry file="file://$PROJECT_DIR$/deputie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="5957">
+              <caret line="329" selection-start-line="329" selection-end-line="329" />
               <folding>
-                <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
-                <element signature="n#readByGov#0;n#Deputie#0;n#!!top" />
-                <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
-                <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
-                <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#1;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/breadcumb5.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/readMe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="54" column="17" selection-start-line="54" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -149,17 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/deputies/getPerm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="173">
               <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/deputies/get_all.php">
+        <entry file="file://$PROJECT_DIR$/api/deputies/getSpec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="75" column="1" selection-start-line="9" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -167,49 +85,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/deputies/getDep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="265">
+              <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_value.php">
+        <entry file="file://$PROJECT_DIR$/api/deputies/get_by_gov.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+            <state relative-caret-position="426">
+              <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/readMe">
+        <entry file="file://$PROJECT_DIR$/api/deputies/get_all.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="334">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/users/read_one.php">
+        <entry file="file://$PROJECT_DIR$/actions/delete_data_dep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+            <state relative-caret-position="184">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testAvg.php">
+        <entry file="file://$PROJECT_DIR$/actions/add_dep_confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="184">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -229,13 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/verifylogin.php" />
-        <option value="$PROJECT_DIR$/change_admin_password.php" />
-        <option value="$PROJECT_DIR$/update_password.php" />
-        <option value="$PROJECT_DIR$/includes/connextionBD.php" />
-        <option value="$PROJECT_DIR$/includes/reader.php" />
-        <option value="$PROJECT_DIR$/update_data.php" />
-        <option value="$PROJECT_DIR$/includes/sidebar.php" />
         <option value="$PROJECT_DIR$/delete_data.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/actions/change_admin_password.php" />
@@ -244,32 +150,21 @@
         <option value="$PROJECT_DIR$/actions/update_data.php" />
         <option value="$PROJECT_DIR$/actions/verifylogin.php" />
         <option value="$PROJECT_DIR$/actions/update_password.php" />
-        <option value="$PROJECT_DIR$/actions/delete_data_dep.php" />
         <option value="$PROJECT_DIR$/api/users/read.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/api/objects/Message.php" />
         <option value="$PROJECT_DIR$/api/users/forgot_password.php" />
-        <option value="$PROJECT_DIR$/api/users/update.php" />
-        <option value="$PROJECT_DIR$/api/contact/message.php" />
         <option value="$PROJECT_DIR$/api/users/login.php" />
         <option value="$PROJECT_DIR$/api/users/create.php" />
-        <option value="$PROJECT_DIR$/api/objects/User.php" />
-        <option value="$PROJECT_DIR$/api/deputies/get_by_gov.php" />
         <option value="$PROJECT_DIR$/testPERM.php" />
         <option value="$PROJECT_DIR$/testSPEC.php" />
         <option value="$PROJECT_DIR$/VOTES.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/deputies.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/actions/edit_data.php" />
         <option value="$PROJECT_DIR$/edit_data.php" />
-        <option value="$PROJECT_DIR$/add_value.php" />
-        <option value="$PROJECT_DIR$/deputie.php" />
-        <option value="$PROJECT_DIR$/actions/add_value_confirmation.php" />
         <option value="$PROJECT_DIR$/api/deputies/getVotes.php" />
         <option value="$PROJECT_DIR$/api/deputies/getPLE.php" />
         <option value="$PROJECT_DIR$/api/deputies/getCom.php" />
@@ -278,8 +173,26 @@
         <option value="$PROJECT_DIR$/testAvg.php" />
         <option value="$PROJECT_DIR$/api/deputies/get_all.php" />
         <option value="$PROJECT_DIR$/api/deputies/getDep.php" />
-        <option value="$PROJECT_DIR$/api/readMe" />
         <option value="$PROJECT_DIR$/api/users/read_one.php" />
+        <option value="$PROJECT_DIR$/api/users/update.php" />
+        <option value="$PROJECT_DIR$/api/readMe" />
+        <option value="$PROJECT_DIR$/api/contact/message.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/api/objects/User.php" />
+        <option value="$PROJECT_DIR$/actions/update_value.php" />
+        <option value="$PROJECT_DIR$/actions/modify_value_confirmation.php" />
+        <option value="$PROJECT_DIR$/actions/add_value_confirmation.php" />
+        <option value="$PROJECT_DIR$/modify_value.php" />
+        <option value="$PROJECT_DIR$/functions/function.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/add_value.php" />
+        <option value="$PROJECT_DIR$/add_dep.php" />
+        <option value="$PROJECT_DIR$/deputies.php" />
+        <option value="$PROJECT_DIR$/actions/delete_data_dep.php" />
+        <option value="$PROJECT_DIR$/actions/add_dep_confirmation.php" />
+        <option value="$PROJECT_DIR$/deputie.php" />
+        <option value="$PROJECT_DIR$/includes/breadcumb5.php" />
+        <option value="$PROJECT_DIR$/api/deputies/get_by_gov.php" />
       </list>
     </option>
   </component>
@@ -320,7 +233,12 @@
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="deputies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,12 +287,12 @@
       <workItem from="1567785433483" duration="25519000" />
       <workItem from="1567942299545" duration="33800000" />
       <workItem from="1568248407921" duration="4450000" />
-      <workItem from="1568285214652" duration="4943000" />
+      <workItem from="1568285214652" duration="33324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89359000" />
+    <option name="totallyTimeSpent" value="117740000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="all">
@@ -384,9 +302,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="ReST Console" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,7 +345,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="ReST Console" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -416,127 +355,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api/objects/Deputie.php</url>
-          <line>48</line>
-          <option name="timeStamp" value="1" />
+          <line>38</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/update_password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/save_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/reserved_codes.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/delete_data_dep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/read.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/verifylogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/delete_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/contact/message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#743#1655#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOTES.php" />
     <entry file="file://$PROJECT_DIR$/api/objects/Message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="54" selection-start-line="9" selection-start-column="1" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/get_by_gov.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/forgot_password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/breadcumb_four.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/breadcumb_three.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/breadcumb_two.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -562,59 +392,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/Karim Helali.jpg" />
-    <entry file="file://$PROJECT_DIR$/deputies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="47" column="115" selection-start-line="47" selection-start-column="115" selection-end-line="47" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/update_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="2" lean-forward="true" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -625,26 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/objects/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="n#readOne#0;n#User#0;n#!!top" />
-            <element signature="n#emailExists#0;n#User#0;n#!!top" />
-            <element signature="n#update#0;n#User#0;n#!!top" />
-            <element signature="n#sendPassword#0;n#User#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/change_admin_password.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -652,38 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deputie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/deputies/getVotes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/getPle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/getSpec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/getPerm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -696,41 +429,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/deputies/getOne.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/get_all.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="75" column="1" selection-start-line="9" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
-            <element signature="n#readByGov#0;n#Deputie#0;n#!!top" />
-            <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
-            <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
-            <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/getDep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_value.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/users/create.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,10 +447,266 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/contact/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
+          <folding>
+            <element signature="e#743#1655#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getOne#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
+            <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test PLE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+          <folding>
+            <element signature="n#readOne#0;n#User#0;n#!!top" />
+            <element signature="n#create#0;n#User#0;n#!!top" />
+            <element signature="n#emailExists#0;n#User#0;n#!!top" />
+            <element signature="n#update#0;n#User#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users/forgot_password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/update_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/getPle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/breadcumb_three.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/breadcumb_four.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/update_value.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/modify_value_confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modify_value.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/breadcumb_two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_value.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" selection-start-line="8" selection-end-line="107" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_dep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="106" column="139" selection-start-line="106" selection-start-column="139" selection-end-line="106" selection-end-column="139" />
+          <folding>
+            <element signature="e#2441#2615#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deputies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="51" column="169" selection-start-line="51" selection-start-column="169" selection-end-line="51" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/delete_data_dep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/add_dep_confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deputie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5957">
+          <caret line="329" selection-start-line="329" selection-end-line="329" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/breadcumb5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/get_all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/readMe">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="345">
+          <caret line="54" column="17" selection-start-line="54" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/getPerm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/getSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/getDep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/get_by_gov.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
         </state>
       </provider>
     </entry>

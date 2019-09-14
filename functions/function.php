@@ -2,6 +2,10 @@
 	function get_header(){
 		require_once("includes/header.php");
 	}
+	function get_bread_five(){
+
+	    require_once ("includes/breadcumb5.php");
+    }
 	function get_bread(){
 		require_once("includes/breadcumb.php");
 	}

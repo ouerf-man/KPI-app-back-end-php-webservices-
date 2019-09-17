@@ -5,5 +5,5 @@
 			<a href="index.php">Home</a> 
 			<i class="icon-angle-right"></i>
 		</li>
-		<li><a href="add_new.php">Add New Record</a></li>
+		<li><a href="messages.php">Messages</a></li>
 	</ul>

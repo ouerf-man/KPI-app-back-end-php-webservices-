@@ -22,7 +22,7 @@ get_bread_four();
                 </div>
             </div>
             <div class="box-content">
-                <form class="form-horizontal" method="post" action="actions/add_dep_confirmation.php">
+                <form class="form-horizontal" method="post" action="actions/add_dep_confirmation.php" enctype="multipart/form-data">
                     <fieldset>
                         <div class="control-group">
                             <label class="control-label" for="focusedInput">elu_id</label>
@@ -67,8 +67,10 @@ get_bread_four();
                                     <option value="Manouba">Manouba</option>
                                     <option value="Medenine">Medenine</option>
                                     <option value="Monastir">Monastir</option>
-                                    <option value="Nabeul">Nabeul</option>
-                                    <option value="Sfax">Sfax</option>
+                                    <option value="Nabeul1">Nabeul1</option>
+                                    <option value="Nabeul2">Nabeul2</option>
+                                    <option value="Sfax1">Sfax1</option>
+                                    <option value="Sfax2">Sfax2</option>
                                     <option value="Sidi Bouzid">Sidi Bouzid</option>
                                     <option value="Siliana">Siliana</option>
                                     <option value="Sousse">Sousse</option>
@@ -77,7 +79,8 @@ get_bread_four();
                                     <option value="Tunis1">Tunis1</option>
                                     <option value="Tunis2">Tunis2</option>
                                     <option value="Zaghouan">Zaghouan</option>
-                                    <option value="France">France</option>
+                                    <option value="France1">France1</option>
+                                    <option value="France2">France2</option>
                                     <option value="Allemagne">Allemagne</option>
                                     <option value="Amerique">Amerique</option>
                                     <option value="Arabe">Arabe</option>
@@ -89,7 +92,7 @@ get_bread_four();
                             <label class="control-label" for="focusedInput">bio</label>
                             <div class="controls">
                                 <textarea class="input-xlarge focused" name="bio" id="focusedInput"
-                                           placeholder="text">
+                                          placeholder="text">
 
                                 </textarea>
                             </div>

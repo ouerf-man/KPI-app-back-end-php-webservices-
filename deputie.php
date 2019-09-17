@@ -72,7 +72,7 @@ if ($stmt->rowCount() > 0) {
                     <td><?php echo $key ?></td>
                     <td><?php echo $value; ?></td>
                     <td class="center">
-                        <a class="btn btn-info" href="#myModal" role="button" data-toggle="modal">
+                        <a class="btn btn-info" href="modify_value.php?table=ple&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>" role="button" data-toggle="modal">
                             Modify
                         </a>
 
@@ -109,7 +109,8 @@ if ($stmt->rowCount() > 0) {
                 <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
             </div>
         </div>
-        <div class="box-content">
+        <div class="box-content
+">
             <table class="table table-striped table-bordered bootstrap-datatable datatable">
                 <thead>
                 <tr>

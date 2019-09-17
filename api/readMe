@@ -75,3 +75,21 @@ get votes api
 http://dashboard.leadindextn.com/api/deputies/getVotes.php?id="karim_helali"
     expected get data : id(string)
     expected out : 200 with votes % , topVotes , topVotesId , avg or 404 no data found
+
+get mouvements api
+http://dashboard.leadindextn.com/api/deputies/getMov.php?id="karim_helali"
+    expected get data : id(string)
+    expected out : 200 with
+     "mouvement": {
+             "Nahdha": {
+                 "mandatIn": "2014-12",
+                 "mandatOut": "2015-12"
+             },
+             "nidee": {
+                 "mandatIn": "2015-12",
+                 "mandatOut": null
+             }
+         }
+
+         or 404 no data found
+

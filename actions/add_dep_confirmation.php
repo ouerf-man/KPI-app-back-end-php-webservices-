@@ -15,25 +15,58 @@ $imgLink = "";
 
 require_once('../includes/connextionBD.php');
 $bd = connextionBD::getInstance();
-if (isset($_FILES['img'])) {
-    $imgLink = "img/" . $id;
+
+if (!empty($_FILES['img']["name"])) {
+    $target_dir = "../img/";
+    $imgLink = $target_dir . basename($_FILES["img"]["name"]);
     $uploadOk = 1;
-    $imageFileType = strtolower(pathinfo($imgLink, PATHINFO_EXTENSION));
+    $imageFileType = strtolower(pathinfo($imgLink,PATHINFO_EXTENSION));
+    $imgLink = $target_dir . $id .".". $imageFileType;
 // Check if image file is a actual image or fake image
-    if (isset($_POST["submit"])) {
-        $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-        if ($check !== false) {
+    if(isset($_POST["submit"])) {
+
+        $check = getimagesize($_FILES["img"]["tmp_name"]);
+        if($check !== false) {
             echo "File is an image - " . $check["mime"] . ".";
             $uploadOk = 1;
         } else {
-            die("File is not an image.");
+            echo "File is not an image.";
             $uploadOk = 0;
         }
     }
+// Check if file already exists
+    if (file_exists($imgLink)) {
+        echo "Sorry, file already exists.";
+        $uploadOk = 0;
+    }
+// Check file size
+    if ($_FILES["img"]["size"] > 500000) {
+        echo "Sorry, your file is too large.";
+        $uploadOk = 0;
+    }
+// Allow certain file formats
+    if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+        && $imageFileType != "gif" ) {
+        echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+        $uploadOk = 0;
+    }
+// Check if $uploadOk is set to 0 by an error
+    if ($uploadOk == 0) {
+        echo "Sorry, your file was not uploaded.";
+// if everything is ok, try to upload file
+    } else {
+        if (move_uploaded_file($_FILES["img"]["tmp_name"], $imgLink)) {
+            echo "The file ". basename( $_FILES["img"]["name"]). " has been uploaded.";
+        } else {
+            echo "Sorry, there was an error uploading your file.";
+        }
+    }
+    $imgLink = "img/".$id;
 }
-$sql = "INSERT INTO elected(elu_id,elu_nom_fr,elu_nom_ar,img,bio,gov) values ('$id','$nomFr','$nomAr','$imgLink','$bio','$gov')";
 
-if($bd->query($sql)){
+$stmt = $bd->prepare("INSERT INTO elected(elu_id,elu_nom_fr,elu_nom_ar,img,bio,gov) values ('$id','$nomFr','$nomAr','$imgLink',:bio,'$gov')");
+$stmt->bindParam(':bio', $bio);
+if($stmt->execute()){
     header("location:../deputies.php");
 }else{
     die("unable to add deputie");

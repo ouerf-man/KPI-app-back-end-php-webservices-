@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0cdaed-03c2-406c-8b2d-b68f99ff22dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/delete_value.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/update_dep.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modify_dep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/valuesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_value_toAll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_value.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/deputies/getMov.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/deputies/getMov.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deputie.php" beforeDir="false" afterPath="$PROJECT_DIR$/deputie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deputies.php" beforeDir="false" afterPath="$PROJECT_DIR$/deputies.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,55 +21,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modify_dep.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/add_dep_confirmation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/update_data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_dep.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deputie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="77" column="196" selection-start-line="77" selection-start-column="196" selection-end-line="77" selection-end-column="196" />
+            <state relative-caret-position="260">
+              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+              <folding>
+                <element signature="n#div#2;n#!!top" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#4;n#!!top" />
+                <element signature="n#div#5;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_value_toAll.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="29" column="88" lean-forward="true" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_value.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/actions/delete_value.php">
+        <entry file="file://$PROJECT_DIR$/api/deputies/getMov.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/valuesTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="18" selection-start-line="15" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -77,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/modify_value_confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="552">
+              <caret line="29" column="1" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="44" column="83" lean-forward="true" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+            <state relative-caret-position="1012">
+              <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -134,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/api/objects/Message.php" />
-        <option value="$PROJECT_DIR$/api/users/forgot_password.php" />
         <option value="$PROJECT_DIR$/api/users/login.php" />
         <option value="$PROJECT_DIR$/api/users/create.php" />
         <option value="$PROJECT_DIR$/testPERM.php" />
@@ -166,14 +175,12 @@
         <option value="$PROJECT_DIR$/modify_value.php" />
         <option value="$PROJECT_DIR$/functions/function.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/add_value.php" />
         <option value="$PROJECT_DIR$/actions/delete_data_dep.php" />
         <option value="$PROJECT_DIR$/includes/breadcumb5.php" />
         <option value="$PROJECT_DIR$/api/deputies/get_by_gov.php" />
         <option value="$PROJECT_DIR$/api/objects/Deputie.php" />
         <option value="$PROJECT_DIR$/api/deputies/getPerm.php" />
         <option value="$PROJECT_DIR$/api/readMe" />
-        <option value="$PROJECT_DIR$/api/deputies/getMov.php" />
         <option value="$PROJECT_DIR$/includes/sidebar.php" />
         <option value="$PROJECT_DIR$/includes/breadcumb_three.php" />
         <option value="$PROJECT_DIR$/messages.php" />
@@ -183,8 +190,13 @@
         <option value="$PROJECT_DIR$/deputies.php" />
         <option value="$PROJECT_DIR$/modify_dep.php" />
         <option value="$PROJECT_DIR$/actions/update_dep.php" />
-        <option value="$PROJECT_DIR$/deputie.php" />
         <option value="$PROJECT_DIR$/actions/delete_value.php" />
+        <option value="$PROJECT_DIR$/valuesTest.php" />
+        <option value="$PROJECT_DIR$/deputie.php" />
+        <option value="$PROJECT_DIR$/add_value_toAll.php" />
+        <option value="$PROJECT_DIR$/actions/valuesTest.php" />
+        <option value="$PROJECT_DIR$/add_value.php" />
+        <option value="$PROJECT_DIR$/api/deputies/getMov.php" />
       </list>
     </option>
   </component>
@@ -219,7 +231,13 @@
             <path>
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="deputies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,6 +256,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Apps\admin\actions" />
       <recent name="C:\wamp64\www\Apps\admin" />
     </key>
   </component>
@@ -270,12 +289,13 @@
       <workItem from="1568248407921" duration="4450000" />
       <workItem from="1568285214652" duration="55416000" />
       <workItem from="1568709739804" duration="7205000" />
-      <workItem from="1568895428216" duration="381000" />
+      <workItem from="1568895428216" duration="1872000" />
+      <workItem from="1568916485252" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147418000" />
+    <option name="totallyTimeSpent" value="153152000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="all">
@@ -287,7 +307,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,16 +366,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/users/read_one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/users/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
@@ -426,20 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_value.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" selection-start-line="8" selection-end-line="107" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -533,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/deputies/getMov.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/deputies/send_msg.php" />
     <entry file="file://$PROJECT_DIR$/api/readMe">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,6 +613,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modify_dep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/actions/update_data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -635,6 +631,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/delete_value.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/modify_value_confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="29" column="1" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -660,38 +677,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modify_dep.php">
+    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="44" column="83" lean-forward="true" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/modify_value_confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="13" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="299">
+          <caret line="18" selection-start-line="15" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deputie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="77" column="196" selection-start-line="77" selection-start-column="196" selection-end-line="77" selection-end-column="196" />
+        <state relative-caret-position="260">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
+            <element signature="n#div#5;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/delete_value.php">
+    <entry file="file://$PROJECT_DIR$/add_value_toAll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="29" column="88" lean-forward="true" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/valuesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_value.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/deputies/getMov.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
         </state>
       </provider>
     </entry>

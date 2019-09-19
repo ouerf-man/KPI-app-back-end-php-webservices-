@@ -2,9 +2,10 @@
 /**
  * Created by PhpStorm.
  * User: Raed
- * Date: 12/09/2019
- * Time: 03:32
+ * Date: 19/09/2019
+ * Time: 21:04
  */
+
 
 $table = $_GET['table'];
 $id = $_GET['id'];
@@ -26,16 +27,8 @@ if(!isset($_GET['txt'])){
             </div>
         </div>
         <div class="box-content">
-            <form class="form-horizontal" method="post" action="actions/add_value_confirmation.php">
+            <form class="form-horizontal" method="post" action="actions/valuesTest.php">
                 <fieldset>
-                    <div class="control-group">
-                        <label class="control-label" for="focusedInput">month:</label>
-                        <div class="controls">
-                            <input class="input-xlarge focused" name="month" id="focusedInput" required type="text"
-                                   placeholder="month" pattern="[0-9]{4}-[0-9]{2}"
-                                   >
-                        </div>
-                    </div>
                     <div class="control-group">
                         <label class="control-label" for="focusedInput">value:</label>
                         <div class="controls">
@@ -77,7 +70,7 @@ if(!isset($_GET['txt'])){
                         <label class="control-label" for="focusedInput">month:</label>
                         <div class="controls">
                             <input class="input-xlarge focused" name="month" id="focusedInput" required type="text"
-                                   placeholder="month" pattern="[0-9]{4}-[0-9]{4}"
+                                   placeholder="month" pattern="[0-9]{4}-[0-9]{2}"
                             >
                         </div>
                     </div>
@@ -106,4 +99,3 @@ if(!isset($_GET['txt'])){
 }
 get_footer();
 ?>
-

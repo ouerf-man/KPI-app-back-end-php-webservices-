@@ -90,6 +90,13 @@ if ($stmt->rowCount() > 0) {
                             Add values
                         </a></td>
                 </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-info" href="add_value_toAll.php?table=ple&id=<?php echo $dep->id ?>">
+                            Add average for all months in [2014 - 2019]
+                        </a>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -142,6 +149,9 @@ if ($stmt->rowCount() > 0) {
                             Modify
                         </a>
 
+                        <a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_value.php?table=com_perm&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>">
+                            <i class="halflings-icon white trash"></i>
+                        </a>
                     </td>
                 </tr>
                 <?php
@@ -153,6 +163,13 @@ if ($stmt->rowCount() > 0) {
                         <a class="btn btn-info" href="add_value.php?table=com_perm&id=<?php echo $dep->id ?>">
                             Add values
                         </a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-info" href="add_value_toAll.php?table=com_perm&id=<?php echo $dep->id ?>">
+                            Add average for all months in [2014 - 2019]
+                        </a>
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -205,6 +222,9 @@ if ($stmt->rowCount() > 0) {
                             Modify
                         </a>
 
+                        <a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_value.php?table=com_spec&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>">
+                            <i class="halflings-icon white trash"></i>
+                        </a>
                     </td>
                 </tr>
                 <?php
@@ -215,6 +235,13 @@ if ($stmt->rowCount() > 0) {
                         <a class="btn btn-info" href="add_value.php?table=com_spec&id=<?php echo $dep->id ?>">
                             Add values
                         </a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-info" href="add_value_toAll.php?table=com_spec&id=<?php echo $dep->id ?>">
+                            Add average for all months in [2014 - 2019]
+                        </a>
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -267,6 +294,9 @@ if ($stmt->rowCount() > 0) {
                             Modify
                         </a>
 
+                        <a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_value.php?table=votes&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>">
+                            <i class="halflings-icon white trash"></i>
+                        </a>
                     </td>
                 </tr>
                 <?php
@@ -277,6 +307,13 @@ if ($stmt->rowCount() > 0) {
                         <a class="btn btn-info" href="add_value.php?table=votes&id=<?php echo $dep->id ?>">
                             Add values
                         </a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-info" href="add_value_toAll.php?table=votes&id=<?php echo $dep->id ?>">
+                            Add average for all months in [2014 - 2019]
+                        </a>
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -329,6 +366,9 @@ if ($stmt->rowCount() > 0) {
                             Modify
                         </a>
 
+                        <a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_value.php?table=mouvement&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>">
+                            <i class="halflings-icon white trash"></i>
+                        </a>
                     </td>
 
                 </tr>
@@ -343,6 +383,7 @@ if ($stmt->rowCount() > 0) {
                         </a>
                     </td>
                 </tr>
+
                 </tbody>
             </table>
         </div>

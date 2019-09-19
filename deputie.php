@@ -75,7 +75,9 @@ if ($stmt->rowCount() > 0) {
                         <a class="btn btn-info" href="modify_value.php?table=ple&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>" role="button" data-toggle="modal">
                             Modify
                         </a>
-
+                        <a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_value.php?table=ple&id=<?php echo $dep->id ?>&month=<?php echo $key ?>&val=<?php echo $value ?>">
+                            <i class="halflings-icon white trash"></i>
+                        </a>
                     </td>
                 </tr>
                 <?php

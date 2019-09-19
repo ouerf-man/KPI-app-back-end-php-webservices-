@@ -49,6 +49,9 @@
 									<a class="btn btn-info" href="deputie.php?dID=<?php echo"'". $row['elu_id']."'"; ?>">
 										Read more
 									</a>
+									<a class="btn btn-info" href="modify_dep.php?ID=<?php echo"'". $row['elu_id']."'"; ?>">
+                                        Edit
+									</a>
 									<a class="btn btn-danger" onclick="return confirmDel()" href="actions/delete_data_dep.php?delID=<?php echo"'". $row['elu_id']."'"; ?>">
 										<i class="halflings-icon white trash"></i>
 									</a>

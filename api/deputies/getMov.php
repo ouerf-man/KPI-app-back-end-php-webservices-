@@ -44,10 +44,10 @@ if ($num > 0) {
         foreach ($mouvement as $key=>$item) {
             $years = explode('-',$key,2);
             $arr=array();
-            $arr['parti'] = $mouvement[$keys[$k]];
-            $arr['mandatIn'] = $years[0].'01';
+            $arr['parti'] = $item;
+            $arr['mandatIn'] = $years[0].'-01';
             if($years[1]!='0000'){
-            $arr['mandatOut'] = $years[1].'01';
+            $arr['mandatOut'] = $years[1].'-01';
             }else $arr['mandatOut'] = null;
             array_push($result,$arr);
         }

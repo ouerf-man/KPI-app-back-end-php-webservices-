@@ -16,7 +16,7 @@ $bd = connextionBD::getInstance();
 $sql1 = "SELECT attributes FROM " . $table . " WHERE elu_id=" . $id . "";
 
 if ($bd->query($sql1)->rowCount() > 0) {
-    die('<h2 style="color: tomato">WHOOPS, Deputie '.$id.' have values already in database</h2>');
+    die('<h2 style="color: tomato">WHOOPS, Deputie '.$id.' has values already in database</h2>');
 }
 
 $months = ['01','02','03','04','05','06','07','08','09','10','11','12'];

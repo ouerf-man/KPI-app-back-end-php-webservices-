@@ -9,8 +9,8 @@
 				<li><a href="users.php"><i class="icon-user"></i><span class="hidden-tablet"> Users</span></a></li>
 				<li><a href="deputies.php"><i class="icon-reorder"></i><span class="hidden-tablet">deputies</span></a></li>
 				<li><a href="messages.php"><i class="icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
-	<!-- 			<li><a href="tasks.html"><i class="icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
-				<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
+	    		<li><a href="articles.php"><i class="icon-tasks"></i><span class="hidden-tablet"> Articles</span></a></li>
+			<!--	<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
 				<li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li> -->
 
 				<li><a href="logout.php"><i class="icon-off"></i><span class="hidden-tablet"> Logout</span></a></li>

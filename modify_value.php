@@ -77,7 +77,7 @@ if(!isset($_GET['txt'])) {
                             <label class="control-label" for="focusedInput">month:</label>
                             <div class="controls">
                                 <input class="input-xlarge focused" name="month" id="focusedInput" required type="text"
-                                       placeholder="month" pattern="[0-9]{4}-[0-9]{2}" value="<?php echo $month ?>"
+                                       placeholder="month" pattern="[0-9]{4}-[0-9]{4}" value="<?php echo $month ?>"
                                 >
                             </div>
                         </div>
@@ -86,7 +86,7 @@ if(!isset($_GET['txt'])) {
                             <div class="controls">
                                 <input class="input-xlarge focused" name="val" id="focusedInput" required type="text"
                                        value="<?php echo $val ?>"
-                                       >
+                                       ><small>2014-0000 pour dire membre depuis 2014</small>
                             </div>
                         </div>
 

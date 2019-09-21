@@ -6,6 +6,9 @@
 
 	    require_once ("includes/breadcumb5.php");
     }
+    function get_bread_six(){
+	    require_once ("includes/breadcumb6.php");
+    }
 	function get_bread(){
 		require_once("includes/breadcumb.php");
 	}

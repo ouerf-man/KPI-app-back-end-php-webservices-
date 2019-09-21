@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0cdaed-03c2-406c-8b2d-b68f99ff22dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/add_article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/breadcumb6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/add_article_votes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article_votes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/valuesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/valuesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_value.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/deputies/getMov.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/deputies/getMov.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/modify_value.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Screenshot_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Screenshot_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/workshop cs.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +30,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="920">
+              <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/article_votes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#88#95#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/add_article_votes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="20" column="56" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="15" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,61 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/add_article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/add_dep_confirmation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_dep.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="131" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
-                <element signature="n#readByGov#0;n#Deputie#0;n#!!top" />
-                <element signature="n#getOne#0;n#Deputie#0;n#!!top" />
-                <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
-                <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
-                <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="12" column="27" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -124,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/actions/edit_data.php" />
         <option value="$PROJECT_DIR$/edit_data.php" />
@@ -175,6 +143,8 @@
         <option value="$PROJECT_DIR$/actions/add_article.php" />
         <option value="$PROJECT_DIR$/api/objects/Article.php" />
         <option value="$PROJECT_DIR$/article.php" />
+        <option value="$PROJECT_DIR$/actions/add_article_votes.php" />
+        <option value="$PROJECT_DIR$/article_votes.php" />
       </list>
     </option>
   </component>
@@ -206,6 +176,22 @@
             <path>
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,12 +244,12 @@
       <workItem from="1568709739804" duration="7205000" />
       <workItem from="1568895428216" duration="1872000" />
       <workItem from="1568916485252" duration="14361000" />
-      <workItem from="1569062701023" duration="3787000" />
+      <workItem from="1569062701023" duration="8109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167057000" />
+    <option name="totallyTimeSpent" value="171379000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="all">
@@ -334,20 +320,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/actions/update_value.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/breadcumb_two.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -525,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" selection-start-line="15" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edit_data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -619,21 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
-            <element signature="n#readByGov#0;n#Deputie#0;n#!!top" />
-            <element signature="n#getOne#0;n#Deputie#0;n#!!top" />
-            <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
-            <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
-            <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modify_value.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -645,20 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/objects/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -676,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/add_article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/objects/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -690,10 +619,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/objects/Deputie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="n#readAll#0;n#Deputie#0;n#!!top" />
+            <element signature="n#readByGov#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getOne#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getAvg#0;n#Deputie#0;n#!!top" />
+            <element signature="n#getTopAvg#0;n#Deputie#0;n#!!top" />
+            <element signature="n#avgAll#0;n#Deputie#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/add_value_confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="15" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/add_article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="27" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="920">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/add_article_votes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="56" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_votes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#88#95#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -47,7 +47,7 @@ $stmt = $art->getAll();
                 <td><?php echo $art->title ?></td>
                 <td>
                     <a class="btn btn-info"
-                       href="">
+                       href="article_votes.php?id=<?php echo $art->id?>">
                         Votes
                     </a>
                 </td>

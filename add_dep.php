@@ -61,6 +61,7 @@ get_bread_four();
                                     <option value="Jendouba">Jendouba</option>
                                     <option value="Kairouan">Kairouan</option>
                                     <option value="Kasserine">Kasserine</option>
+                                    <option value="Gafsa">Gafsa</option>
                                     <option value="Kebili">Kebili</option>
                                     <option value="Kef">Kef</option>
                                     <option value="Mahdeya">Mahdeya</option>
@@ -83,6 +84,7 @@ get_bread_four();
                                     <option value="France2">France2</option>
                                     <option value="Allemagne">Allemagne</option>
                                     <option value="Amerique">Amerique</option>
+                                    <option value="Italie">Italie</option>
                                     <option value="Arabe">Arabe</option>
                                 </select>
                             </div>

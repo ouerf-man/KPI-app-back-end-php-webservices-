@@ -17,6 +17,10 @@ include_once 'api/objects/Category.php';
 
 $db = connextionBD::getInstance();
 $cat = new Category($db);
+if(isset($_GET['delID'])){
+    $cat->id=$_GET['delID'];
+    $cat->delete();
+}
 if (isset($_POST['cat'])) {
     $cat->cat = $_POST['cat'];
     $cat->addOne();
@@ -52,6 +56,9 @@ $stmt = $cat->getAll();
                     <a class="btn btn-info"
                        href="article.php?idC=<?php echo $cat->id?>">
                         Articles
+                    </a>
+                    <a class="btn btn-danger" onclick="return confirmDel()" href="articles.php?delID=<?php echo $cat->id;?>">
+                        <i class="halflings-icon white trash"></i>
                     </a>
                 </td>
             </tr>

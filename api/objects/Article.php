@@ -24,9 +24,25 @@ class Article
         $this->conn = $db;
     }
 
+    function getOne(){
+        $query = "SELECT * FROM " . $this->table_name ." WHERE id =". $this->id ;
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+        return $stmt;
+    }
+
     function getAll(){
         //select all data
         $query = "SELECT * FROM " . $this->table_name ." WHERE cat =". $this->cat ;
+
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+
+        return $stmt;
+    }
+
+    function getAllNoFiltrage(){
+        $query = "SELECT * FROM " . $this->table_name ;
 
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
@@ -41,6 +57,14 @@ class Article
             die('unable to add article');
         }else{
             header('location:../article.php?idC='.$this->cat);
+        }
+    }
+
+    function delete(){
+        $query = "DELETE FROM articles WHERE id=".$this->id;
+        $stmt = $this->conn->prepare($query);
+        if(!$stmt->execute()){
+            die('unable to delete category');
         }
     }
 }

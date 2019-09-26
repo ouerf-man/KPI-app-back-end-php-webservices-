@@ -28,7 +28,7 @@ class Deputie
 
     function readAll(){
         //select all data
-        $query = "SELECT * FROM " . $this->table_name ;
+        $query = "SELECT * FROM " . $this->table_name ." ORDER BY elu_id";
 
         $stmt = $this->conn->prepare($query);
         $stmt->execute();

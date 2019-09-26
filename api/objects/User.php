@@ -18,6 +18,7 @@ class User
     public $password;
     public $isActive;
     public $createdAt;
+    public $rating;
 
     //constructor with $db as database connection
 
@@ -31,7 +32,7 @@ class User
     {
 
         // query to read single record
-        $sql = "SELECT * FROM users where id =  " .$this->id;
+        $sql = "SELECT * FROM users where id =  " . $this->id;
         $stmt = $this->conn->query($sql);
         if ($stmt->rowCount() > 0) {
             $row = $stmt->fetch();
@@ -84,6 +85,57 @@ class User
 
         return false;
 
+    }
+
+    function createRating()
+    {
+        $this->id = htmlspecialchars(strip_tags($this->id));
+        $query = "SELECT * FROM rating WHERE id=".$this->id;
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+        if ($stmt->rowCount()==0) {
+            // query to insert record
+            $query = "INSERT INTO rating (id,rating) values(:id,:rating)";
+
+            // prepare query
+            $stmt = $this->conn->prepare($query);
+
+            // sanitize
+            $this->rating = htmlspecialchars(strip_tags($this->rating));
+            $this->id = htmlspecialchars(strip_tags($this->id));
+
+
+            // bind values
+            $stmt->bindParam(":rating", $this->rating);
+            $stmt->bindParam(":id", $this->id);
+
+            // execute query
+            if ($stmt->execute()) {
+                return true;
+            }
+
+            return false;
+        }else{
+            // query to insert record
+            $query = "UPDATE rating set rating=:rating WHERE id=".$this->id;
+
+
+            // prepare query
+            $stmt = $this->conn->prepare($query);
+
+            // sanitize
+            $this->rating = htmlspecialchars(strip_tags($this->rating));
+
+            // bind values
+            $stmt->bindParam(":rating", $this->rating);
+
+            // execute query
+            if ($stmt->execute()) {
+                return true;
+            }
+
+            return false;
+        }
     }
 
 // check if given email exist in the database
@@ -177,7 +229,7 @@ class User
         $user2 = new User($this->conn);
         $user2->email = $this->email;
         // execute the query
-        if (!$user2->emailExists()&&$stmt->execute()) {
+        if (!$user2->emailExists() && $stmt->execute()) {
             return true;
         }
 

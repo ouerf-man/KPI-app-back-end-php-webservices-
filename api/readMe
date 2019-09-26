@@ -93,3 +93,11 @@ http://dashboard.leadindextn.com/api/deputies/getMov.php?id="karim_helali"
 
          or 404 no data found
 
+
+
+/ ** Articles **/
+
+http://dashboard.leadindextn.com/api/getCategories.php
+    expected out : 200 & array records contains all categories
+
+http://dashboard.leadindextn.com/api/deputies/getArt.php?dep="karim_helali"&cat=1

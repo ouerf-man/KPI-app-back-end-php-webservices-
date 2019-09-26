@@ -39,4 +39,17 @@ class Category
             die('unable to add category');
         }
     }
+
+    function delete(){
+        $query = "DELETE FROM articles WHERE cat=".$this->id;
+        $stmt = $this->conn->prepare($query);
+        if(!$stmt->execute()){
+            die('unable to delete category');
+        }
+        $query = "DELETE FROM ".$this->table_name." WHERE id=".$this->id;
+        $stmt = $this->conn->prepare($query);
+        if(!$stmt->execute()){
+            die('unable to delete category');
+        }
+    }
 }

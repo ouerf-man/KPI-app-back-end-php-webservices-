@@ -16,7 +16,10 @@ include_once 'api/objects/Article.php';
 
 $db = connextionBD::getInstance();
 $art = new Article($db);
-
+if(isset($_GET['delID'])){
+    $art->id=$_GET['delID'];
+    $art->delete();
+}
 $art->cat = $_GET['idC'];
 $stmt = $art->getAll();
 
@@ -49,6 +52,9 @@ $stmt = $art->getAll();
                     <a class="btn btn-info"
                        href="article_votes.php?id=<?php echo $art->id?>">
                         Votes
+                    </a>
+                    <a class="btn btn-danger" onclick="return confirmDel()" href="article.php?idC=<?php $_GET['idC']?>&delID=<?php echo $art->id;?>">
+                        <i class="halflings-icon white trash"></i>
                     </a>
                 </td>
             </tr>

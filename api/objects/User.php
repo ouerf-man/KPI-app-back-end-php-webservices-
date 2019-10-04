@@ -15,6 +15,7 @@ class User
     public $id;
     public $name;
     public $email;
+    public $phone;
     public $password;
     public $isActive;
     public $createdAt;
@@ -44,6 +45,7 @@ class User
         $this->name = $row['name'];
         $this->email = $row['Email'];
         $this->isActive = $row['isActive'];
+        $this->phone = $row['phone'];
         $this->createdAt = $row['createdAt'];
         return true;
     }
@@ -53,7 +55,7 @@ class User
     {
 
         // query to insert record
-        $query = "INSERT INTO " . $this->table_name . "(name,Email,Password,isActive) values(:name,:Email,:Password,:isActive)";
+        $query = "INSERT INTO " . $this->table_name . "(name,Email,Password,isActive,phone) values(:name,:Email,:Password,:isActive,:phone)";
 
         // prepare query
         $stmt = $this->conn->prepare($query);
@@ -62,11 +64,13 @@ class User
         $this->name = htmlspecialchars(strip_tags($this->name));
         $this->email = htmlspecialchars(strip_tags($this->email));
         $this->password = htmlspecialchars(strip_tags($this->password));
+        $this->phone = htmlspecialchars(strip_tags($this->phone));
 
         // bind values
         $stmt->bindParam(":name", $this->name);
         $stmt->bindParam(":Email", $this->email);
         $stmt->bindParam(":Password", $this->password);
+        $stmt->bindParam(":phone", $this->phone);
         $stmt->bindParam(":isActive", $this->isActive);
         // test if email already exists
         $sql = "SELECT * FROM users where Email = '$this->email'";
@@ -90,10 +94,10 @@ class User
     function createRating()
     {
         $this->id = htmlspecialchars(strip_tags($this->id));
-        $query = "SELECT * FROM rating WHERE id=".$this->id;
+        $query = "SELECT * FROM rating WHERE id=" . $this->id;
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
-        if ($stmt->rowCount()==0) {
+        if ($stmt->rowCount() == 0) {
             // query to insert record
             $query = "INSERT INTO rating (id,rating) values(:id,:rating)";
 
@@ -115,9 +119,9 @@ class User
             }
 
             return false;
-        }else{
+        } else {
             // query to insert record
-            $query = "UPDATE rating set rating=:rating WHERE id=".$this->id;
+            $query = "UPDATE rating set rating=:rating WHERE id=" . $this->id;
 
 
             // prepare query
@@ -141,47 +145,87 @@ class User
 // check if given email exist in the database
     function emailExists()
     {
+        //check if email is phone ><
+        if (strpos($this->email, '@') !== false) {
+            // query to check if email exists
+            $query = "SELECT id, name , Email , Password FROM " . $this->table_name . " WHERE Email = ?  LIMIT 0,1";
 
-        // query to check if email exists
-        $query = "SELECT id, name , Email , Password FROM " . $this->table_name . " WHERE Email = ?  LIMIT 0,1";
+            // prepare the query
+            $stmt = $this->conn->prepare($query);
 
-        // prepare the query
-        $stmt = $this->conn->prepare($query);
+            // sanitize
+            $this->email = htmlspecialchars(strip_tags($this->email));
 
-        // sanitize
-        $this->email = htmlspecialchars(strip_tags($this->email));
+            // bind given email value
+            $stmt->bindParam(1, $this->email);
 
-        // bind given email value
-        $stmt->bindParam(1, $this->email);
+            // execute the query
+            $stmt->execute();
 
-        // execute the query
-        $stmt->execute();
+            // get number of rows
+            $num = $stmt->rowCount();
 
-        // get number of rows
-        $num = $stmt->rowCount();
+            // if email exists, assign values to object properties for easy access and use for php sessions
+            if ($num > 0) {
 
-        // if email exists, assign values to object properties for easy access and use for php sessions
-        if ($num > 0) {
+                // get record details / values
+                $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-            // get record details / values
-            $row = $stmt->fetch(PDO::FETCH_ASSOC);
+                // assign values to object properties
+                $this->id = $row['id'];
+                $this->name = $row['name'];
+                $this->password = $row['Password'];
 
-            // assign values to object properties
-            $this->id = $row['id'];
-            $this->name = $row['name'];
-            $this->password = $row['Password'];
+                // return true because email exists in the database
+                return true;
+            }
 
-            // return true because email exists in the database
-            return true;
+            // return false if email does not exist in the database
+            return false;
+            // now if we have a phone
+        } else {
+            // query to check if email exists
+            $query = "SELECT id, name , Email , Password FROM " . $this->table_name . " WHERE phone = ?  LIMIT 0,1";
+
+            // prepare the query
+            $stmt = $this->conn->prepare($query);
+
+            // sanitize
+            $this->email = htmlspecialchars(strip_tags($this->email));
+
+            // bind given email value
+            $stmt->bindParam(1, $this->email);
+
+            // execute the query
+            $stmt->execute();
+
+            // get number of rows
+            $num = $stmt->rowCount();
+
+            // if email exists, assign values to object properties for easy access and use for php sessions
+            if ($num > 0) {
+
+                // get record details / values
+                $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+                // assign values to object properties
+                $this->id = $row['id'];
+                $this->name = $row['name'];
+                $this->password = $row['Password'];
+
+                // return true because email exists in the database
+                return true;
+            }
+
+            // return false if email does not exist in the database
+            return false;
         }
-
-        // return false if email does not exist in the database
-        return false;
     }
 
 
     public function update()
     {
+        $emailIsPassed = false;
         // if password needs to be updated
         $password_set = !empty($this->password) ? ", Password = :password" : "";
         // get data by id
@@ -197,7 +241,8 @@ class User
         $query = "UPDATE " . $this->table_name . "
             SET
                 name = :name,
-                Email = :email
+                Email = :email,
+                phone = :phone
                 " . $password_set . "
             WHERE id = :id";
 
@@ -210,14 +255,21 @@ class User
         } else {
             $this->name = $row['name'];
         }
+        if (!empty($this->phone)) {
+            $this->phone = htmlspecialchars(strip_tags($this->phone));
+        } else {
+            $this->phone = $row['phone'];
+        }
         if (!empty($this->email)) {
             $this->email = htmlspecialchars(strip_tags($this->email));
         } else {
+            $emailIsPassed = true;
             $this->email = $row['Email'];
         }
         // bind the values from the form
         $stmt->bindParam(':name', $this->name);
         $stmt->bindParam(':email', $this->email);
+        $stmt->bindParam(':phone', $this->phone);
 
         if (!empty($this->password)) {
             $this->password = htmlspecialchars(strip_tags($this->password));
@@ -229,7 +281,7 @@ class User
         $user2 = new User($this->conn);
         $user2->email = $this->email;
         // execute the query
-        if (!$user2->emailExists() && $stmt->execute()) {
+        if ((!$user2->emailExists() || $emailIsPassed ) && $stmt->execute()) {
             return true;
         }
 

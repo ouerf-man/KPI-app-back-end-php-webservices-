@@ -39,7 +39,18 @@ forgot_password api
     expected out : 200 password sent or 400 email not found
 
 
-
+user clicked on gov :
+    http://dashboard.leadindextn.com/api/users/govClicked.php
+       expected data : {
+                            "user":1,
+                            "gov":"Kef"
+                        }
+user clicked on dep :
+    http://dashboard.leadindextn.com/api/users/depClicked.php
+       expected data : {
+                            "user":1,
+                            "dep":"Karim"
+                        }
 // dep api's
 
 get all deps api
@@ -101,3 +112,5 @@ http://dashboard.leadindextn.com/api/getCategories.php
     expected out : 200 & array records contains all categories
 
 http://dashboard.leadindextn.com/api/deputies/getArt.php?dep="karim_helali"&cat=1
+
+

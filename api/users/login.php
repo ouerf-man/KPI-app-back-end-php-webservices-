@@ -28,20 +28,28 @@ $data = json_decode(file_get_contents("php://input"));
 // set product property values
 $user->email = $data->email;
 $email_exists = $user->emailExists();
-
-if($email_exists && $data->password==$user->password){
-    http_response_code(200);
-    echo json_encode(
-        array(
-            "message" => "Successful login.",
-            "userId" => $user->id
-        )
-    );
+if ($user->email != null) {
+    if ($email_exists && $data->password == $user->password) {
+        http_response_code(200);
+        echo json_encode(
+            array(
+                "message" => "Successful login.",
+                "userId" => $user->id
+            )
+        );
+    } else {
+        http_response_code(400);
+        echo json_encode(
+            array(
+                "message" => "login failed.",
+            )
+        );
+    }
 }else{
     http_response_code(400);
     echo json_encode(
         array(
-            "message" => "login failed.",
+            "message" => "login failed. email required",
         )
     );
 }

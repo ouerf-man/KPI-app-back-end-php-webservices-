@@ -34,6 +34,7 @@ if($user->readOne()){
         "id" =>  $user->id,
         "name" => $user->name,
         "email" => $user->email,
+        "phone" => $user->phone,
         "isActive" => $user->isActive,
         "createdAt"=> $user->createdAt
     );

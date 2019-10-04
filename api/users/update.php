@@ -33,6 +33,10 @@ if(isset($data->userName)){
     $user->name = $data->userName;
 }
 
+if(isset($data->userName)){
+    $user->phone = $data->phone;
+}
+
 if(isset($data->email)){
     $user->email = $data->email;
 }

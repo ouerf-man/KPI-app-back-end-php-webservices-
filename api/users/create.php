@@ -35,6 +35,9 @@ if (
     $user->name = $data->userName;
     $user->email = $data->email;
     $user->password = $data->password;
+    if(isset($data->phone)){
+        $user->phone = $data->phone;
+    }else $user->phone = null;
     $user->isActive = true;
 
     if ($user->create()) {
